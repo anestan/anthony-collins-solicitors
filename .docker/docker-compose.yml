@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  webserver:
+    build: ./php/${PHP_VERSION}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ../:/var/www/html
+    links:
+      - mysql
+
+  mysql:
+    build: ./mysql
+    ports: 
+      - "3306:3306"
+    volumes:
+      - ./mysql/db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=docker
+      

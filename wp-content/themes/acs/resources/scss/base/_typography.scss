@@ -1,0 +1,61 @@
+// Font sizes
+@for $i from 8 through 90 {
+    .fs-#{$i} {
+        @include font-size(#{$i}px);
+    }
+}
+
+@for $i from 8 through 90 {
+    .fs-md-#{$i} {
+        @include media-breakpoint-up(md) {
+          @include font-size(#{$i}px);
+        }
+    }
+}
+
+@for $i from 8 through 90 {
+    .fs-lg-#{$i} {
+        @include media-breakpoint-up(lg) {
+          @include font-size(#{$i}px);
+        }
+    }
+}
+
+@for $i from 8 through 90 {
+    .fs-xl-#{$i} {
+        @include media-breakpoint-up(xl) {
+          @include font-size(#{$i}px);
+        }
+    }
+}
+
+// Line height classes
+@for $i from 8 through 90 {
+    .lh-#{$i} {
+        line-height: #{$i}px;
+    }
+}
+
+@for $i from 8 through 90 {
+    .lh-md-#{$i} {
+        @include media-breakpoint-up(md) {
+          line-height: #{$i}px;
+        }
+    }
+}
+
+@for $i from 8 through 90 {
+    .lh-lg-#{$i} {
+        @include media-breakpoint-up(lg) {
+          line-height: #{$i}px;
+        }
+    }
+}
+
+@for $i from 8 through 90 {
+    .lh-xl-#{$i} {
+        @include media-breakpoint-up(xl) {
+          line-height: #{$i}px;
+        }
+    }
+}

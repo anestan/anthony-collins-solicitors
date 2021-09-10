@@ -1,0 +1,4 @@
+.docker/mysql/db/
+.DS_Store
+wp-content/themes/acs/node_modules
+wp-content/uploads

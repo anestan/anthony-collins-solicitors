@@ -184,21 +184,34 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-// Declare ACF Blocks
+/**
+ * Declare ACF blocks.
+ */
 add_action('acf/init', 'acs_acf_init_block_types');
 function acs_acf_init_block_types() {
 
     // Check function exists.
     if( function_exists('acf_register_block_type') ) {
 
-        // register a testimonial block.
+        // register a Hero Section block.
         acf_register_block_type(array(
             'name'              => 'Hero Section',
             'title'             => __('Hero Section'),
             'description'       => __('A hero section block.'),
             'render_template'   => 'template-parts/blocks/hero-section/hero-section.php',
             'category'          => 'formatting',
-            'icon'              => 'admin-comments',
+            'icon'              => 'cover-image',
+            'keywords'          => array( 'hero' ),
+        ));
+
+        // register a Card block.
+        acf_register_block_type(array(
+            'name'              => 'Card',
+            'title'             => __('Card'),
+            'description'       => __('A card block.'),
+            'render_template'   => 'template-parts/blocks/card/card.php',
+            'category'          => 'formatting',
+            'icon'              => 'index-card',
             'keywords'          => array( 'hero' ),
         ));
     }

@@ -16,7 +16,7 @@ if( !empty($block['anchor']) ) {
 }
 
 // Create class attribute allowing for custom "className" and "align" values.
-$className = 'card bg-dark text-white border-0 mt-5';
+$className = 'card bg-dark text-white border-0 mt-4';
 if( !empty($block['className']) ) {
     $className .= ' ' . $block['className'];
 }

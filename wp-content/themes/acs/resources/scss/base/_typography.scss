@@ -1,3 +1,10 @@
+// Bootstrap Icons
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("#{$publicPath}/fonts/vendor/bootstrap-icons/bootstrap-icons.woff2") format("woff2"),
+  url("#{$publicPath}/fonts/vendor/bootstrap-icons/bootstrap-icons.woff") format("woff");
+  }
+
 // Font sizes
 @for $i from 8 through 90 {
     .fs-#{$i} {

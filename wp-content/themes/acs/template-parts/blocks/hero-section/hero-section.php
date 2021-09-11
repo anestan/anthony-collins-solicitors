@@ -26,7 +26,7 @@ if( !empty($block['align']) ) {
 
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-    <div class="container py-8">
+    <div class="container pb-5 pt-6 py-xl-8">
         <div class="row">
             <div class="col-11 mx-auto col-lg-12 text-white heading-area">
                 <p class="col-md-7 col-xl-7 fs-15 lh-25"><?php the_field('subheading'); ?></p>
@@ -48,8 +48,7 @@ if( !empty($block['align']) ) {
     </div>
     <style type="text/css">
         #<?php echo $id; ?> {
-            background: url(<?php the_field('bg'); ?>) no-repeat;
-            background-size: cover;
+            background-image: url(<?php the_field('bg'); ?>);
         }
     </style>
 </div>

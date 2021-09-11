@@ -1,7 +1,11 @@
 // Hero Section
 .hero-section {
-    @include media-breakpoint-up(lg) {
-        margin-top: -5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5rem;
+
+    @include media-breakpoint-down(md) {
+        background-position: center;
     }
 
     .heading-area {

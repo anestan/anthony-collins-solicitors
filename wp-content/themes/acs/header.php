@@ -26,8 +26,11 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'acs' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<?php the_custom_logo(); ?>
+		<nav class="navbar navbar-expand-lg navbar-light pt-3">
+			<?php //the_custom_logo(); ?>
+			<div class="col-lg-2">
+				<?php echo get_custom_logo(); ?>
+			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -38,7 +41,7 @@
 						array(
 							'theme_location' => 'menu-1',
 							'menu_id'        => 'primary-menu',
-							'menu_class'     => 'navbar-nav mr-auto',
+							'menu_class'     => 'navbar-nav mr-auto ml-md-5',
 							'container'		 => 'ul'
 						)
 					);
@@ -46,7 +49,7 @@
 
 				<form class="form-inline my-2 my-lg-0">
 					<input class="form-control mr-sm-2 bg-transparent border-0 text-white text-right" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-secondary rounded-circle my-2 my-sm-0 btn-search-nav" type="submit">
+					<button class="btn btn-secondary rounded-circle my-2 my-sm-0 btn-search-nav border-0" type="submit">
 						<i class="bi bi-search"></i>
 					</button>
 				</form>

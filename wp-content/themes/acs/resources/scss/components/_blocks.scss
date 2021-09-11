@@ -1,0 +1,19 @@
+// Hero Section
+.hero-section {
+    @include media-breakpoint-up(lg) {
+        margin-top: -5rem;
+    }
+
+    .heading-area {
+        border-left: 5px solid $primary;
+    }
+}
+
+// Card
+.overlay-dark {
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 95%);
+
+    &:hover {
+        background: linear-gradient(rgba(4, 79, 85, 0.21) 0%, rgba(4, 79, 85, 0.21) 50%, #009ca9 100%);
+    }
+}

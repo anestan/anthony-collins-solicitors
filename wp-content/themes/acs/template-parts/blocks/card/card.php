@@ -16,7 +16,7 @@ if( !empty($block['anchor']) ) {
 }
 
 // Create class attribute allowing for custom "className" and "align" values.
-$className = 'card bg-dark text-white border-0 mt-4';
+$className = 'card bg-dark text-white border-0 mt-4 shadow-lg rounded-lg';
 if( !empty($block['className']) ) {
     $className .= ' ' . $block['className'];
 }
@@ -33,7 +33,7 @@ if( $link ):
 
     <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
         <img src="<?php the_field('image'); ?>" class="card-img rounded-lg" alt="<?php echo esc_html( $link_title ); ?>">
-        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center overlay-dark">
             <span class="fs-18 lh-18 fs-lg-24"><?php echo esc_html( $link_title ); ?></span>
             <i class="bi bi-arrow-right-short fs-36"></i>
             <a class="stretched-link" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"></a>

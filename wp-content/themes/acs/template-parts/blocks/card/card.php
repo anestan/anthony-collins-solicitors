@@ -33,8 +33,9 @@ if( $link ):
 
     <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
         <img src="<?php the_field('image'); ?>" class="card-img rounded-lg" alt="<?php echo esc_html( $link_title ); ?>">
-        <div class="card-img-overlay d-flex align-items-center justify-content-center">
-            <p class="card-title fs-18 lh-18 fs-lg-24"><?php echo esc_html( $link_title ); ?></p>
+        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+            <span class="fs-18 lh-18 fs-lg-24"><?php echo esc_html( $link_title ); ?></span>
+            <i class="bi bi-arrow-right-short fs-36"></i>
             <a class="stretched-link" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"></a>
         </div>
         <style type="text/css">

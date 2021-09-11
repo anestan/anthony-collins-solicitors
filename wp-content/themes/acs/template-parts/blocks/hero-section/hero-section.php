@@ -37,7 +37,7 @@ if( !empty($block['align']) ) {
                     <div class="input-group mb-3 col-lg-5 mt-5">
                         <input type="text" class="form-control px-3 py-4" placeholder="Search Sectors, Resources, News & more…" aria-label="Search Sectors, Resources, News & more…" aria-describedby="button-addon2">
                         <div class="input-group-append">
-                            <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+                            <button class="btn btn-primary" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
                         </div>
                     </div>
                 <?php endif; ?>

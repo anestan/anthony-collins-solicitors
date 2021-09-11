@@ -1,0 +1,9 @@
+.navbar {
+    input::placeholder {
+        color: $white;
+    }
+
+    .btn-search-nav {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}

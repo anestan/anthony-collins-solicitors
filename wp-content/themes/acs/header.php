@@ -45,8 +45,10 @@
 				?>
 
 				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					<input class="form-control mr-sm-2 bg-transparent border-0 text-white text-right" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-secondary rounded-circle my-2 my-sm-0 btn-search-nav" type="submit">
+						<i class="bi bi-search"></i>
+					</button>
 				</form>
 			</div>
 		</nav>

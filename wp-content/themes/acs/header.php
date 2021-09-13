@@ -26,7 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'acs' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
+		<nav class="navbar navbar-expand-xl navbar-dark" role="navigation">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col">
@@ -51,7 +51,7 @@
 					) );
 					?>
 
-					<form class="form-inline my-2 my-lg-0 d-none d-lg-block">
+					<form class="form-inline my-2 my-lg-0 d-none d-xl-block">
 						<input class="form-control mr-sm-2 bg-transparent border-0 text-white text-right" type="search" placeholder="Search" aria-label="Search">
 						<button class="btn btn-secondary rounded-circle my-2 my-sm-0 btn-search-nav border-0" type="submit">
 							<i class="bi bi-search"></i>

@@ -51,7 +51,7 @@
 					) );
 					?>
 
-					<form class="form-inline my-2 my-lg-0">
+					<form class="form-inline my-2 my-lg-0 d-none">
 						<input class="form-control mr-sm-2 bg-transparent border-0 text-white text-right" type="search" placeholder="Search" aria-label="Search">
 						<button class="btn btn-secondary rounded-circle my-2 my-sm-0 btn-search-nav border-0" type="submit">
 							<i class="bi bi-search"></i>

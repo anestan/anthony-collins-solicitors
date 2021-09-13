@@ -2,10 +2,14 @@
 .hero-section {
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -6rem;
+    margin-top: -5.1rem;
 
     @include media-breakpoint-down(md) {
         background-position: center;
+    }
+
+    @include media-breakpoint-up(xl) {
+        margin-top: -6rem;
     }
 
     .heading-area {

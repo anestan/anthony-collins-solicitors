@@ -302,7 +302,7 @@ function cptui_register_my_taxes_sector() {
 add_action( 'init', 'cptui_register_my_taxes_sector' );
 
 /**
- * Rewrite rule 
+ * Add rewrite rules for Service post type
  */
 function acs_service_permalinks( $post_link, $post ) {
     if ( is_object( $post ) && $post->post_type == 'service' ) {

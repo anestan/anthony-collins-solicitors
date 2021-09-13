@@ -232,3 +232,95 @@ function register_my_menu() {
 	register_nav_menu('header-menu',__( 'Header Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
+
+/**
+ * Create Services post type
+ */
+function cptui_register_my_cpts_service() {
+	$labels = [
+		"name" => __( "Services", "acs" ),
+		"singular_name" => __( "Service", "acs" ),
+	];
+
+	$args = [
+		"label" => __( "Services", "acs" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => 'services',
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => true,
+		"rewrite" => [ "slug" => "who-we-help/%sector%", "with_front" => false ],
+		"query_var" => true,
+		"supports" => [ "title", "editor", "thumbnail", "page-attributes" ],
+		"show_in_graphql" => false,
+	];
+
+	register_post_type( "service", $args );
+}
+add_action( 'init', 'cptui_register_my_cpts_service' );
+
+/**
+ * Create Sector taxonomy for Services
+ */
+function cptui_register_my_taxes_sector() {
+	$labels = [
+		"name" => __( "Sectors", "acs" ),
+		"singular_name" => __( "Sector", "acs" ),
+	];
+	
+	$args = [
+		"label" => __( "Sectors", "acs" ),
+		"labels" => $labels,
+		"public" => true,
+		"publicly_queryable" => true,
+		"hierarchical" => true,
+		"show_ui" => true,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"query_var" => true,
+		"rewrite" => [ 'slug' => 'sector', 'with_front' => true, ],
+		"show_admin_column" => false,
+		"show_in_rest" => true,
+		"rest_base" => "sector",
+		"rest_controller_class" => "WP_REST_Terms_Controller",
+		"show_in_quick_edit" => false,
+		"show_in_graphql" => false,
+	];
+	register_taxonomy( "sector", [ "service" ], $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_sector' );
+
+/**
+ * Add rewrite rules for Service post type
+ */
+function acs_service_permalinks( $post_link, $post ) {
+    if ( is_object( $post ) && $post->post_type == 'service' ) {
+        $terms = wp_get_object_terms( $post->ID, 'sector' );
+		if( $terms ) {
+			if ( wp_get_post_parent_id( wp_get_post_parent_id( $post->ID ) ) ) {
+				// Post with grandparent
+				$new_link = str_replace( '%sector%' , $terms[0]->slug , $post_link );
+				return str_replace( '%sector%' , get_post_field( 'post_name', wp_get_post_parent_id( $post->ID ) ) , $new_link );
+			} else if ( wp_get_post_parent_id( $post->ID ) ) {
+				// Post with parent
+				$new_link = str_replace( '%sector%' , $terms[0]->slug , $post_link );
+				return str_replace( '%sector%' , get_post_field( 'post_name', wp_get_post_parent_id( $post->ID ) ) , $new_link );
+			} else {
+				return str_replace( '%sector%' , $terms[0]->slug , $post_link );
+			}
+		}
+	}
+    return $post_link;
+}
+add_filter( 'post_type_link', 'acs_service_permalinks', 1, 2 );

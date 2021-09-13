@@ -16,7 +16,7 @@ if( !empty($block['anchor']) ) {
 }
 
 // Create class attribute allowing for custom "className" and "align" values.
-$className = 'hero-section';
+$className = 'hero-section pt-5';
 if( !empty($block['className']) ) {
     $className .= ' ' . $block['className'];
 }
@@ -26,7 +26,7 @@ if( !empty($block['align']) ) {
 
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-    <div class="container pb-5 pt-6 pt-xl-9 pb-xl-8">
+    <div class="container">
         <div class="row">
             <div class="col-11 mx-auto col-lg-12 text-white heading-area">
                 <p class="col-md-7 col-xl-7 fs-15 lh-25"><?php the_field('subheading'); ?></p>

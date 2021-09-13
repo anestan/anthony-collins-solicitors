@@ -1,4 +1,6 @@
 .navbar {
+    z-index: $zindex-fixed;
+    
     input::placeholder {
         color: $white;
     }

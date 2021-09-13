@@ -1,15 +1,61 @@
 // Hero Section
 .hero-section {
+    align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -6rem;
+    display: flex;
+    height: 100%!important;
+    margin-top: -5.1rem;
+    min-height: 16rem;
+    position: relative;
 
     @include media-breakpoint-down(md) {
         background-position: center;
     }
 
+    @include media-breakpoint-up(lg) {
+        margin-top: -5.5rem;
+        min-height: 37rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        margin-top: -6rem;
+    }
+
     .heading-area {
         border-left: 5px solid $primary;
+    }
+
+    .breadcrumbs {
+        opacity: .75;
+        margin-bottom: 1.3125rem;
+        margin-top: 2.125rem;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 1.8rem;
+            margin-top: 2.6rem;
+        }
+    }
+
+    // Hero overlay
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0; 
+        right: 0;
+        top: 0; 
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+    }
+}
+
+.home {
+    .hero-section {
+        min-height: 30rem;
+
+        @include media-breakpoint-up(xl) {
+            min-height: 36rem;
+        }
     }
 }
 

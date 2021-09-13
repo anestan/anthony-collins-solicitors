@@ -214,6 +214,17 @@ function acs_acf_init_block_types() {
             'icon'              => 'index-card',
             'keywords'          => array( 'hero' ),
         ));
+
+        // register a Sectors Section block.
+        acf_register_block_type(array(
+            'name'              => 'Sectors Section',
+            'title'             => __('Sectors Section'),
+            'description'       => __('The sectors section block.'),
+            'render_template'   => 'template-parts/blocks/sectors-section/sectors-section.php',
+            'category'          => 'formatting',
+            'icon'              => 'admin-settings',
+            'keywords'          => array( 'sectors' ),
+        ));
     }
 }
 
@@ -289,7 +300,7 @@ function cptui_register_my_taxes_sector() {
 		"show_in_menu" => true,
 		"show_in_nav_menus" => true,
 		"query_var" => true,
-		"rewrite" => [ 'slug' => 'sector', 'with_front' => true, ],
+		"rewrite" => [ 'slug' => 'who-we-help', 'with_front' => true, ],
 		"show_admin_column" => false,
 		"show_in_rest" => true,
 		"rest_base" => "sector",

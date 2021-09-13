@@ -1,0 +1,12 @@
+.list-group-item {
+    &.active {
+        background-color: transparent;
+        border-left: 5px solid $primary!important;
+        color: $black;
+        padding-left: 1.5rem!important;
+    }
+}
+
+.ls-16 {
+    letter-spacing: .16em;
+}

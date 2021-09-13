@@ -18,3 +18,8 @@ $spacers: (
 	9: $spacer * 9.5,
 	10: $spacer * 11
 );
+
+// Container widths
+$container-max-widths: (
+	xl: 1197px
+) !default;

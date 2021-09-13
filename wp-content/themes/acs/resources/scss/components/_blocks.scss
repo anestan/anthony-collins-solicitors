@@ -22,10 +22,6 @@
         margin-top: -6rem;
     }
 
-    .heading-area {
-        border-left: 5px solid $primary;
-    }
-
     .breadcrumbs {
         opacity: .75;
         margin-bottom: 1.3125rem;
@@ -57,6 +53,15 @@
             min-height: 36rem;
         }
     }
+}
+
+.border-left-primary,
+.heading-area {
+    border-left: 5px solid $primary;
+}
+
+.border-top-yellow {
+    border-top: 10px solid #fbef63;
 }
 
 // Card

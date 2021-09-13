@@ -53,8 +53,8 @@
     .hero-section {
         min-height: 30rem;
 
-        @include media-breakpoint-down(md) {
-            padding-top: 2rem;
+        @include media-breakpoint-up(xl) {
+            min-height: 36rem;
         }
     }
 }

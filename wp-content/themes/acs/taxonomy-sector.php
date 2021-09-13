@@ -38,7 +38,7 @@ get_header();
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-8 py-6 px-md-5 border-left border-right">
+					<div class="col-12 col-md-7 py-6 px-md-5 border-left border-right">
 						<div class="tab-content" id="nav-tabContent">
 							<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 								<p class="fs-20 lh-32 font-weight-bold">We are a nationally recognised education law firm with legal experts who are trusted by schools, academies, education providers and dioceses across the country.</p>
@@ -50,16 +50,27 @@ get_header();
 							<div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
 						</div>
 					</div>
-					<div class="col-12 col-md-2 py-6">
+					<div class="col-12 col-md-3 py-6">
 						<div class="row">
-							<div class="col-12 pl-4">
+							<div class="col-12 pl-5">
 								<button type="button" class="btn btn-primary btn-block rounded-0 fs-16 lh-18 py-3 px-4 ">Contact Us</button>
 							</div>
-							<div class="col-12 border-top border-bottom py-5 my-4 pl-4">
+							<div class="col-12 border-top border-bottom py-5 my-4 pl-5">
 								<p class="font-weight-bold fs-12 lh-18 ls-16 text-secondary text-uppercase">Sector Lead</p>
-								<img src="/wp-content/themes/acs/public/images/chris-wittington.jpg" alt="">
+								<div class="d-flex">
+									<img src="/wp-content/themes/acs/public/images/chris-wittington.jpg" alt="" width="92" height="92">
+									<div class="d-flex flex-column pl-3">
+										<p class="sector-lead fs-18 lh-25 text-primary mb-2">Chris Whittington</p>
+										<p class="fs-12 lh-14 text-secondary">Partner</p>
+									</div>
+								</div>
+								<p class="fs-10 lh-14 mt-3">Leader of the education team, with extensive education and public law experience.</p>
+								<a class="fs-12 lh-14 d-flex align-items-center font-weight-bold text-dark mb-2" href="#"><i class="bi bi-envelope text-primary fs-18 mr-2"></i>Email me</a>
+								<a class="fs-12 lh-14 d-flex align-items-center font-weight-bold text-dark" href="#"><i class="bi bi-telephone-fill	 text-primary fs-18 mr-2"></i>0121 214 3693</a>
 							</div>
-							<div class="col-12"></div>
+							<div class="col-12 pl-5">
+								<p class="font-weight-bold fs-12 lh-18 ls-16 text-secondary text-uppercase">Download Resources</p>
+							</div>
 						</div>
 					</div>
 				</div>

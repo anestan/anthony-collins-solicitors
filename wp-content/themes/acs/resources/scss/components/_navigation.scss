@@ -8,11 +8,15 @@
     }
 
     @include media-breakpoint-up(lg) {
-        .menu-item {
+        .navbar-nav > .menu-item {
             margin-right: 2rem;
-            
-            a {
-                color: $white;
+        }
+
+        &.navbar-dark {
+            .navbar-nav {
+                .nav-link {
+                    color: $white;
+                }
             }
         }
     }

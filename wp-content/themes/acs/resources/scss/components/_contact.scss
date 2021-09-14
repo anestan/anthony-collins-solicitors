@@ -1,0 +1,182 @@
+#office-locations {
+    font-size: 12px;
+    border-top: 10px solid #FBEF63;
+    position: relative;
+
+    .row-office {
+        border-left: 5px solid $primary;
+        border-bottom: 1px solid #EBEBEB;
+
+        .office-name {
+            font-size: 45px;
+        }
+
+        .address {
+            width: 30%;
+        }
+    
+        .contact-details {
+            width: 30%;
+        }
+    
+        .opening-times {
+            width: 40%;
+    
+            .opening-times-table {
+                display: flex;
+            }
+        }
+
+        .acf-map {
+            width: 100%;
+            height: 240px;
+        }
+        
+        // Fixes potential theme css conflict.
+        .acf-map img {
+           max-width: inherit !important;
+        }
+        
+        .get-directions {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: $primary;
+            padding: 16px 25px;
+            border-top-left-radius: 6px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        @include media-breakpoint-down(sm) {
+            border-top: 5px solid $primary;
+            border-left: none;
+            border-bottom: none;
+
+            .acf-map,
+            .get-directions {
+                display: none;
+            }
+        }
+    }
+
+    #speak-expert {
+        width: 100%;
+        position: absolute;
+        top: -250px;
+        z-index: 1;
+    
+        .form-wrapper {
+            background-color: #fff;
+            border-radius: 6px;
+            border-top: 10px solid #8FBFDB;
+            padding: 40px;
+    
+            -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+            -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+            box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    
+            h3 {
+                font-size: 25px;
+            }
+    
+            form.ask-expert {
+                display: flex;
+                flex-direction: column;
+
+                .btn {
+                    font-size: 16px;
+                    height: 50px;
+                    padding: 15px 40px;
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        border-top: none;
+
+        .row-office {
+            > .col-12 {
+                padding-top: 10px;
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .office-name {
+                font-size: 30px;
+                margin-bottom: 0.5em !important;
+            }
+
+            .address {
+                width: 100%;
+            }
+
+            .contact-details,
+            .opening-times {
+                display: none;
+            }
+        }
+
+        #speak-expert {
+            position: relative;
+            top: -58px;
+
+            > div {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+#contact-form {
+    color: #fff;
+    background-image: url(/wp-content/themes/acs/public/images/bg-contact-form.jpg);
+    background-color: $primary;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 500px;
+
+    .gform_wrapper {
+        .gfield {
+            text-align: left;
+
+            .gfield_label {
+                font-size: 15px;
+                font-weight: normal;
+
+                .gfield_required {
+                    display: none;
+                }
+            }
+
+            input[type=email], 
+            input[type=number], 
+            input[type=tel], 
+            input[type=text], 
+            select, textarea {
+                border: none;
+                border-radius: 6px;
+                padding: 14px;
+                outline: none;
+            }
+
+
+        }
+
+        .gform_footer {
+            input.gform_button {
+                font-size: 20px;
+                color: $primary;
+                line-height: 1;
+                border-radius: 0;
+                border: none;
+                background-color: #fff;
+                padding: 18px 40px;
+                max-height: 55px;
+            }
+        }
+    }
+}

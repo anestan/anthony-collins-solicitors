@@ -24,26 +24,24 @@ select, textarea {
     outline: none;
 }
 
-.gform_wrapper {
-    .btn:not(.rounded-circle) {
-        color: #009CA9;
-        font-size: 20px;
-        font-weight: bold;
-        line-height: 1;
-        border-radius: 0;
-        border: none;
-        background-color: #fff;
-        padding: 18px 40px;
-        max-height: 55px;
-    
-        &.btn-primary {
-            color: #fff;
-            background-color: #009CA9;
-        }
-    
-        &.btn-default {
-            color: #B8B8B8;
-            background-color: #EBEBEB;
-        }
+.btn-acs {
+    color: #009CA9;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 0;
+    border: none;
+    background-color: #fff;
+    padding: 18px 40px;
+    max-height: 50px;
+
+    &.btn-primary {
+        color: #fff;
+        background-color: #009CA9;
+    }
+
+    &.btn-default {
+        color: #B8B8B8;
+        background-color: #EBEBEB;
     }
 }

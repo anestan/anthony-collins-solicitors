@@ -185,6 +185,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 /**
+ * Register google api key for ACF Gmap field
+ */
+require get_template_directory() . '/inc/acf-google-maps.php';
+
+/**
  * Declare ACF blocks.
  */
 add_action('acf/init', 'acs_acf_init_block_types');

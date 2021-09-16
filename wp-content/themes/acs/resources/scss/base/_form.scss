@@ -24,7 +24,7 @@ select, textarea {
     outline: none;
 }
 
-.btn:not(.rounded-circle) {
+.btn-acs {
     color: #009CA9;
     font-size: 20px;
     font-weight: bold;
@@ -33,7 +33,7 @@ select, textarea {
     border: none;
     background-color: #fff;
     padding: 18px 40px;
-    max-height: 55px;
+    max-height: 50px;
 
     &.btn-primary {
         color: #fff;

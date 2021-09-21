@@ -1,0 +1,698 @@
+/**
+ * This CSS file was auto-generated via PostCSS
+ *
+ * Contributors should avoid editing this file, but instead edit the associated
+ * src/resources/postcss/ file. For more information, check out our engineering
+ * docs on how we handle CSS in our engineering docs.
+ *
+ * @see: http://moderntribe.github.io/products-engineering/css/
+ */
+
+/* -----------------------------------------------------------------------------
+ *
+ * Utilities
+ *
+ * This file is just a clearing-house.
+ * Make partials (start with an underscore) for any actual css code.
+ *
+ * ----------------------------------------------------------------------------- */
+
+/* Variables - needed everywhere. */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Arrow Right
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Arrow (light, left)
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Down
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Left
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Right
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Up
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Check
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Close
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Day
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Dropdown
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Error
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Featured
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Filters
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Link
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Guest
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - List
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Location
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Mail
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Map
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Map pin
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Messages
+ * ----------------------------------------------------------------------------- */
+
+/* stylelint-disable-line block-no-empty */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Month
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - No Map
+ * ----------------------------------------------------------------------------- */
+
+/* stylelint-disable-line block-no-empty */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Paper Plane
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Phone
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Photo
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Plus
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Recurring
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Remove
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Reset
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Search
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Search Filter
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Week
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * SVG - Cal Export
+ * ----------------------------------------------------------------------------- */
+
+/* stylelint-disable-line block-no-empty */
+
+/* Mixins */
+
+/* -----------------------------------------------------------------------------
+ * Body
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Desktop Body 1
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Desktop Body 2
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Desktop Body 3
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Mobile Body 1
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Mobile Body 2
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Mobile Body 3
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 1
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 2
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 3
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 4
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 5
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 6
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 7
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Heading 8
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Default
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Alt
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Thin
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Thin
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Event Title
+ *
+ * This mixin intentionally only affects the text and border _colors_
+ * to make sure they all follow the Customizer overrides.
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Global
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Solid
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Link
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Border
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Border Small
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Button - Icon Border
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Sliders & Toggles
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Sliders
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Hidden: Hide from both screenreaders and browsers
+ * @author: h5bp.com/u
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Visually Hide: Hide only visually, but have it available for screenreaders
+ * @author: h5bp.com/v
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Visually Show: Show element after has been hidden with %visually-hide
+ * ----------------------------------------------------------------------------- */
+
+.tribe-event-tickets-meta-required-message {
+	color: red;
+	display: none;
+	margin: 0;
+	padding: 10px;
+}
+
+.tribe-event-tickets-plus-meta-missing-required .tribe-event-tickets-meta-required-message {
+	display: block;
+}
+
+.tribe-tickets-meta {
+	margin-bottom: 10px;
+}
+
+.tribe-event-tickets-plus-meta-fields {
+	counter-reset: section;
+}
+
+.tribe-event-tickets-plus-meta-attendee {
+	border-bottom: 1px solid #eee;
+	counter-increment: section;
+	padding: 10px 10px 15px;
+}
+
+.tribe-event-tickets-plus-meta-attendee:last-child {
+		border-bottom: 0;
+	}
+
+.tribe-event-tickets-plus-meta-attendee > header {
+		color: #aaa;
+		display: block;
+		font-size: .8em;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+.tribe-event-tickets-plus-meta-attendee > header:after {
+			content: ' ' counter( section );
+		}
+
+.tribe-tickets-meta-field-header {
+	display: block;
+	font-weight: var(--tec-font-weight-regular);
+}
+
+.tribe-tickets-meta-fieldset header h3 {
+		margin: 0;
+	}
+
+.tribe-tickets-meta-required header,
+	.tribe-tickets-meta-required label {
+		position: relative;
+		width: -webkit-max-content;
+		width: -moz-max-content;
+		width: max-content;
+	}
+
+.tribe-tickets-meta-required header h3 {
+		margin: 0;
+	}
+
+.tribe-tickets-meta-required header:first-child::after,
+	.tribe-tickets-meta-required label:first-child::after {
+		color: red;
+		content: '*';
+		margin-left: .5em;
+		position: absolute;
+		right: -.75em;
+		top: 0;
+	}
+
+.tribe-tickets-meta-required .tribe-options label:first-child::after {
+			content: '';
+		}
+
+#ticket_global_stock .ticket_field {
+		display: block;
+		margin-left: 132px;
+	}
+
+/**
+ * Theme Specific rules
+ */
+
+.tribe-theme-twentyfifteen #tribe-events-content .tribe-events-tickets input[type='number'] {
+	width: 100%;
+}
+
+/* * List of Attendees */
+
+.tribe-attendees-list {
+	display: table;
+	list-style: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.tribe-attendees-list-item {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.tribe-attendees-list-item .avatar {
+		display: block;
+	}
+
+#tribe-events-content a.tribe-attendees-list-showall,
+a.tribe-attendees-list-showall {
+	box-shadow: none;
+	display: block;
+	outline: 0;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+}
+
+.tribe-attendees-list-container a.tribe-attendees-list-showall img {
+			display: inline-block;
+		}
+
+.tribe-attendees-list-container a.tribe-attendees-list-showall.avatar:hover::before {
+				background-color: #ddd;
+			}
+
+.tribe-attendees-list-container a.tribe-attendees-list-showall.avatar:before {
+				background-color: #eee;
+				bottom: 0;
+				content: '';
+				display: block;
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+
+.tribe-attendees-list-container a.tribe-attendees-list-showall.avatar:after {
+				color: #444;
+				content: '\f132';
+				display: block;
+				font-family: 'dashicons';
+				font-size: 22px;
+				height: 0;
+				left: 0;
+				line-height: 0;
+				position: absolute;
+				right: 0;
+				text-align: center;
+				top: 52%;
+			}
+
+.tribe-attendees-list-container.tribe-attendees-list-showjs a.tribe-attendees-list-showall.avatar::after {
+			content: '\f460';
+		}
+
+.tribe-attendees-list-container.tribe-attendees-list-showjs .tribe-attendees-list-item > span.tribe-attendees-list-hidden {
+			display: block;
+		}
+
+.tribe-attendees-list-item > span {
+		display: block;
+		margin-bottom: 5px;
+		margin-right: 5px;
+	}
+
+.tribe-attendees-list-item > span.tribe-attendees-list-hidden {
+			display: none;
+		}
+
+.tribe-tickets-attendees-list-optout label {
+		margin-left: 5px;
+	}
+
+.tribe-tickets-attendees-list-optout input[type="radio"] + label,
+	.tribe-tickets-attendees-list-optout input[type="checkbox"] + label {
+		display: inline-block;
+	}
+
+.tribe-orders-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.tribe-orders-list > .tribe-item {
+		margin-top: 20px;
+	}
+
+.tribe-orders-list .tribe-tickets-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+.tribe-orders-list .tribe-tickets-list > .tribe-item {
+			background-color: var(--tec-color-background);
+			border: 1px solid #ededed;
+			border-bottom: 0;
+			padding: 20px;
+		}
+
+.tribe-orders-list .tribe-tickets-list > .tribe-item:last-child {
+				border-bottom: 1px solid #ededed;
+			}
+
+.tribe-orders-list .tribe-tickets-list > .tribe-item.tribe-disabled {
+				background-color: #efefef;
+				border-color: #ddd;
+				color: #717171;
+			}
+
+.tribe-orders-list .tribe-tickets-list > .tribe-item.tribe-disabled:last-child {
+					border-bottom-color: #ddd;
+				}
+
+.tribe-orders-list .tribe-tickets-list > .tribe-item .tribe-ticket-information {
+				display: inline-block;
+				float: right;
+			}
+
+.tribe-orders-list .tribe-tickets-list > .tribe-item .tribe-answer {
+				float: right;
+				display: block;
+			}
+
+.tribe-orders-list .tribe-tickets-list > .tribe-item table {
+				border: 0;
+				margin: 0;
+			}
+
+.tribe-orders-list .tribe-tickets-list > .tribe-item td {
+				border: 0;
+			}
+
+/* Attendee Meta on orders-tickets.php */
+
+.attendee-meta.toggle {
+	font-size: 90%;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.attendee-meta.toggle:before {
+		content: '+ ';
+	}
+
+.attendee-meta.toggle.on:before {
+		content: '- ';
+	}
+
+.attendee-meta-row {
+	display: none;
+}
+
+/* Attendee meta fields */
+
+/*
+	Tribe Horizontal Datepicker (Day, Month, Year)
+*/
+
+.tribe_horizontal_datepicker__container label {
+		width: 100%;
+	}
+
+/* Attendee Registration Page */
+
+#tribe-tickets__registration__form .tribe_horizontal_datepicker__container label {
+			width: 100%;
+		}
+
+.tribe_horizontal_datepicker__container .tribe-field.tribe-tickets__item__attendee__field__birth {
+		width: 100%;
+	}
+
+.tribe_horizontal_datepicker__container .tribe_horizontal_datepicker {
+		width: 100%;
+		min-width: 80px;
+		margin-top: var(--tec-spacer-1);
+		margin-bottom: var(--tec-spacer-1);
+	}
+
+.tribe_horizontal_datepicker__container .tribe_horizontal_datepicker:not(:last-child) {
+			margin-right: var(--tec-spacer-1);
+		}
+
+.tribe_horizontal_datepicker__container .tribe_horizontal_datepicker select {
+			border: 1px solid var(--tec-form-color-border-secondary);
+			border-radius: var(--tec-border-radius-default);
+			width: 100%;
+		}
+
+.tribe_horizontal_datepicker__container .tribe_horizontal_datepicker select:focus {
+				border-color: var(--tec-color-accent-secondary-hover);
+			}
+
+.tribe_horizontal_datepicker__container .tribe_horizontal_datepicker select.ticket-meta__has-error {
+				border-color: var(--tec-color-icon-error) ! important;
+			}
+
+.tribe_horizontal_datepicker__container .tribe_horizontal_datepicker select {
+			color: var(--tec-color-text-primary);
+			font-family: var(--tec-font-family-sans-serif);
+			font-size: var(--tec-font-size-1);
+			font-weight: var(--tec-font-weight-regular);
+			line-height: var(--tec-line-height-0);
+			-webkit-appearance: none;
+			   -moz-appearance: none;
+			        appearance: none;
+			background-color: var(--tec-color-background);
+			background-image: url('../images/select.png');
+			background-position: right center;
+			background-repeat: no-repeat;
+			background-size: 33px 33px;
+			height: auto;
+			padding: 10px;
+}
+
+.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta label {
+		display: block;
+		font-weight: var(--tec-font-weight-regular);
+	}
+
+.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta input[type="text"],
+	.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta input[type="email"],
+	.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta input[type="url"],
+	.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta input[type="password"],
+	.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta textarea {
+		background: white;
+		margin-top: .5em;
+		width: 100%;
+	}
+
+.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta select {
+		background: white;
+		border: 1px solid #ddd;
+	}
+
+input[type=checkbox].tribe_show_attendees {
+	margin-left: .4em;
+}
+
+/* = EDD CSS
+=============================================*/
+
+.edd.quantity {
+	font-size: 15px;
+	padding: 16px 10px;
+}
+
+.tribe-checkout-backlinks {
+	align-items: flex-start;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+}
+
+.tribe-checkout-backlinks a.tribe-checkout-backlink {
+	box-shadow: unset;
+	margin-bottom: .75em;
+	text-decoration: none;
+}
+
+.tribe-checkout-backlinks a.tribe-checkout-backlink:before {
+		content: '\f341';
+		font-family: 'dashicons';
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+
+@media (min-width: 600px) {
+		.tribe_horizontal_datepicker__container .tribe_horizontal_datepicker {
+			display: inline-block;
+			width: calc(33.33333% - var(--tec-spacer-1));
+			max-width: 280px;
+		}
+}
+
+@media (min-width: 768px) {
+
+.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta input[type="text"],
+	.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta input[type="email"],
+	.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta input[type="url"],
+	.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta input[type="password"],
+	.tribe-events-tickets-rsvp .tribe-event-tickets-plus-meta textarea {
+			width: 50%
+	}
+
+.edd.quantity {
+		width: 132px
+}
+
+.tribe-checkout-backlinks {
+		flex-flow: row wrap
+}
+		}

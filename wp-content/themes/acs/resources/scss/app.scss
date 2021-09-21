@@ -1,5 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/sofia-pro');
-
 // Configuration and helpers
 @import
   'abstracts/variables',
@@ -9,6 +7,7 @@
 // Base stuff
 @import
   'base/typography',
+  'base/fonts',
   'base/form';
 
 // Components

@@ -1,0 +1,5265 @@
+# Copyright (C) 2021 Modern Tribe
+# This file is distributed under the same license as the Event Tickets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Tickets 5.1.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/event-tickets\n"
+"POT-Creation-Date: 2021-08-31 16:17:29+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-08-31 16:17\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#. #-#-#-#-#  event-tickets.pot (Event Tickets 5.1.9)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: event-tickets.php:62 src/Tribe/Admin/Notices.php:92 src/Tribe/Main.php:691
+#: src/Tribe/Privacy.php:59 src/admin-views/admin-welcome-message.php:58
+msgid "Event Tickets"
+msgstr ""
+
+#: src/Tickets/Commerce/Attendee.php:176 src/Tribe/Admin/Columns/Tickets.php:56
+#: src/Tribe/Admin/Manager/Service_Provider.php:173 src/Tribe/Attendees.php:212
+#: src/Tribe/Commerce/PayPal/Main.php:458
+#: src/Tribe/Tabbed_View/Attendee_Report_Tab.php:22 src/admin-views/list.php:95
+msgid "Attendees"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Ajax_Request_Handler.php:30
+msgid ""
+"Make sure to complete the entire PayPal process. Do not close the window you "
+"have finished the process."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Ajax_Request_Handler.php:31
+msgid ""
+"The last screen of the PayPal connect process includes a button to be sent "
+"back to your site. It is important you click this and do not close the "
+"window yourself."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Ajax_Request_Handler.php:32
+msgid "If you’re still having problems connecting:"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Ajax_Request_Handler.php:38
+msgid "Having trouble connecting to PayPal?"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:42
+msgid "Disconnect PayPal Account"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:43
+msgid "Are you sure you want to disconnect your PayPal account?"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:44
+msgid "You’re connected to PayPal! Here’s what’s next..."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:46
+msgid ""
+"PayPal allows you to accept credit or debit cards directly on your website. "
+"Because of\n"
+"\t\t\t\t\t\t\t\t\t\tthis, your site needs to maintain <a href=\"%1$s\" "
+"target=\"_blank\">PCI-DDS compliance</a>.\n"
+"\t\t\t\t\t\t\t\t\t\tEvent Tickets never stores sensitive information like "
+"card details to your server and works\n"
+"\t\t\t\t\t\t\t\t\t\tseamlessly with SSL certificates. Compliance is "
+"comprised of, but not limited to:"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:56
+msgid ""
+"Using a trusted, secure hosting provider – preferably one which claims and "
+"actively promotes PCI compliance."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:57
+msgid ""
+"Maintain security best practices when setting passwords and limit access to "
+"your server."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:58
+msgid "Implement an SSL certificate to keep your payments secure."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:59
+msgid "Keep plugins up to date to ensure latest security fixes are present."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Assets.php:62
+msgid ""
+"You have connected your account for test mode. You will need to connect "
+"again once you are in live mode."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Gateway.php:43
+msgid "PayPal Commerce"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Models/PayPal_Order.php:160
+msgid "To create a PayPalOrder object, please provide valid %1$s"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Models/PayPal_Payment.php:113
+msgid ""
+"To create a PayPalPayment object, please provide valid id, amount, status, "
+"create_time, update_time and links"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:38
+msgid ""
+"There was a problem with creating webhook on PayPal. A gateway error log "
+"also added to get details information about PayPal response."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:68
+msgid "PayPal client access token API request response is:"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:74
+msgid "PayPal client rest API credentials API request response is:"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:78
+msgid ""
+"There was a problem with PayPal client rest API request and we could not "
+"find valid client id and secret."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:107
+msgid "PayPal merchant status check API request response is:"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:112
+msgid ""
+"A valid SSL certificate is required to accept payments and set up your "
+"PayPal account. Once a\n"
+"\t\t\t\t\tcertificate is installed and the site is using https, please "
+"disconnect and reconnect your account."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:117
+msgid ""
+"There was a problem with the status check for your account. Please try "
+"disconnecting and connecting again. If the problem persists, please contact "
+"support."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:130
+msgid "Set up an account to receive payment from PayPal"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:134
+msgid "Confirm your primary email address"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:142
+msgid ""
+"Your account was expected to be able to accept custom payments, but is not. "
+"Please make sure your\n"
+"\t\t\t\taccount country matches the country setting. If the problem "
+"persists, please contact PayPal."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:160
+msgid "Reach out to PayPal to enable PPCP_CUSTOM for your account"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:172
+msgid "Reach out to PayPal to resolve the following capabilities:"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:200
+msgid "logged data"
+msgstr ""
+
+#. Translators: %1$s: The logged data link.
+#: src/Tickets/Commerce/Gateways/PayPal/On_Boarding_Redirect_Handler.php:207
+msgid ""
+"There was a problem setting up the webhooks for your PayPal account. Please "
+"try disconnecting and reconnecting your PayPal account. If the problem "
+"persists, please contact support and provide them with the latest %1$s"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/REST/On_Boarding_Endpoint.php:139
+msgid "Unexpected response from PayPal when on boarding"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/REST/Order_Endpoint.php:234
+msgid "Order ID in PayPal"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/REST/Webhook_Endpoint.php:73
+msgid "Processes the Webhook as long as it includes valid Payment Event data"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/REST/Webhook_Endpoint.php:80
+msgid "Whether the processing was successful"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/REST/Webhook_Endpoint.php:89
+msgid "The webhook was invalid and was not processed"
+msgstr ""
+
+#. Translators: %s: The error message.
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Authorization.php:69
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:100
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:149
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:198
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:267
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:359
+msgid "PayPal request error: %s"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Authorization.php:80
+msgid "Unexpected PayPal response when getting token from client credentials"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:111
+msgid "Unexpected PayPal response when verifying signature"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:160
+msgid "Unexpected PayPal response when getting list of webhooks"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:211
+msgid "The PayPal webhook does not exist"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:214
+msgid "Unexpected PayPal response when getting webhook"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:292
+msgid ""
+"PayPal webhook limit has been reached, you need to go into your developer."
+"paypal.com account and remove webhooks from the associated account"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:296
+msgid "Unexpected PayPal response when creating webhook"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:375
+msgid ""
+"The PayPal webhook was not able to be updated because it did not exist, "
+"attempting to create it now"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Repositories/Webhooks.php:383
+msgid "Unexpected PayPal response when updating webhook"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Settings.php:33
+msgid "-- Please select a country --"
+msgstr ""
+
+#. Translators: %s: The PayPal telephone number.
+#: src/Tickets/Commerce/Gateways/PayPal/Settings.php:82
+msgid "Please call a PayPal support representative at %s"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Settings.php:86
+msgid ""
+"Please reach out to PayPal support from your PayPal account Resolution Center"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Settings.php:89
+msgid " and relay the following message:"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Tickets_Form.php:77
+#: src/Tribe/Commerce/PayPal/Main.php:1910 src/Tribe/RSVP.php:2355
+msgid "Return to the %1$sAttendees Report%2$s."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Tickets_Form.php:84
+#: src/Tribe/Commerce/PayPal/Main.php:1917 src/Tribe/RSVP.php:2362
+msgid "Post updated. %1$s"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Tickets_Form.php:88
+#: src/Tribe/Commerce/PayPal/Main.php:1921 src/Tribe/RSVP.php:2366
+msgid "Post published. %1$s"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Tickets_Form.php:91
+#: src/Tribe/Commerce/PayPal/Main.php:1924 src/Tribe/RSVP.php:2369
+msgid "Post submitted."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Tickets_Form.php:92
+#: src/Tribe/Commerce/PayPal/Main.php:1925 src/Tribe/RSVP.php:2370
+msgid "Post scheduled."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Tickets_Form.php:93
+#: src/Tribe/Commerce/PayPal/Main.php:1926 src/Tribe/RSVP.php:2371
+msgid "Post draft updated."
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Tickets_Form.php:149
+#: src/Tribe/Commerce/PayPal/Frontend/Tickets_Form.php:75
+msgid ""
+"Your PayPal %1$s has been received! Check your email for your PayPal %1$s "
+"confirmation."
+msgstr ""
+
+#. Translators: %s: The missing keys and header information.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Headers.php:92
+msgid "Missing PayPal webhook header: %s"
+msgstr ""
+
+#. Translators: %s: The PayPal payment event.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Listeners/Payment_Event_Listener.php:97
+msgid "Mismatched event type for webhook event: %s"
+msgstr ""
+
+#. Translators: %s: The PayPal payment event.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Listeners/Payment_Event_Listener.php:112
+msgid "Missing PayPal payment for webhook event: %s"
+msgstr ""
+
+#. Translators: %s: The PayPal payment ID.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Listeners/Payment_Event_Listener.php:128
+msgid "Missing order for PayPal payment from webhook: %s"
+msgstr ""
+
+#. Translators: %1$s: The status name; %2$s: The payment information.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Listeners/Payment_Event_Listener.php:153
+msgid "Change %1$s in PayPal from webhook: %2$s"
+msgstr ""
+
+#. Translators: %s: The error message.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Listeners/Payment_Event_Listener.php:230
+msgid "PayPal capture request error: %s"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Listeners/Payment_Event_Listener.php:241
+msgid "Unexpected PayPal capture response"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Webhook_Checker.php:98
+msgid ""
+"There was a problem updating your PayPal Payments webhook. Please disconnect "
+"your account and reconnect it."
+msgstr ""
+
+#. Translators: %s: The event type.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Webhooks_Route.php:99
+msgid "PayPal webhook event type not registered or supported: %s"
+msgstr ""
+
+#. Translators: %s: The event type.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Webhooks_Route.php:111
+msgid "Received PayPal webhook event for type: %s"
+msgstr ""
+
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Webhooks_Route.php:120
+msgid "Failed PayPal webhook event verification"
+msgstr ""
+
+#. Translators: %s: The event type.
+#: src/Tickets/Commerce/Gateways/PayPal/Webhooks/Webhooks_Route.php:134
+msgid "Error processing webhook: %s"
+msgstr ""
+
+#: src/Tickets/Commerce/Models/Attendee_Model.php:69
+#: src/Tribe/Commerce/PayPal/Main.php:2961 src/Tribe/RSVP.php:2014
+msgid "(deleted)"
+msgstr ""
+
+#: src/Tickets/Commerce/Module.php:19
+msgid "Tickets Commerce"
+msgstr ""
+
+#: src/Tickets/Commerce/Order.php:143 src/Tribe/Commerce/PayPal/Main.php:470
+msgid "Orders"
+msgstr ""
+
+#: src/Tickets/Commerce/Reports/Attendance_Totals.php:84
+#: src/Tribe/Commerce/PayPal/Attendance_Totals.php:77
+#: src/Tribe/RSVP/Attendance_Totals.php:49
+msgctxt "attendee summary"
+msgid "Total %s:"
+msgstr ""
+
+#: src/Tickets/Commerce/Reports/Attendance_Totals.php:85
+#: src/Tribe/Commerce/PayPal/Attendance_Totals.php:78
+msgctxt "attendee summary"
+msgid "Complete:"
+msgstr ""
+
+#: src/Tickets/Commerce/Reports/Attendance_Totals.php:86
+#: src/Tribe/Commerce/PayPal/Attendance_Totals.php:79
+msgctxt "attendee summary"
+msgid "Cancelled:"
+msgstr ""
+
+#: src/Tickets/Commerce/Reports/Event.php:53
+#: src/Tribe/Commerce/PayPal/Main.php:1726
+msgid "Sales report"
+msgstr ""
+
+#: src/Tickets/Commerce/Reports/Ticket.php:38
+#: src/Tribe/Commerce/PayPal/Main.php:1752
+msgid "Report"
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:119
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:70
+msgid "Payments"
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:134 src/Tribe/Admin/Notices.php:214
+#: src/Tribe/Main.php:666 src/admin-views/admin-welcome-message.php:56
+#: src/admin-views/tribe-commerce-settings.php:4
+msgid "Event Tickets Plus"
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:138
+#: src/admin-views/tribe-commerce-settings.php:9
+msgid "Check it out!"
+msgstr ""
+
+#. Translators: %1$s: The Event Tickets Plus link, %2$s: The word "ticket" in
+#. lowercase, %3$s: The "Check it out!" link.
+#: src/Tickets/Commerce/Settings.php:142
+msgctxt "about Tickets Commerce"
+msgid ""
+"Tickets Commerce is a light implementation of a commerce gateway using "
+"PayPal and simplified stock handling. If you need more advanced features, "
+"take a look at %1$s. In addition to integrating with your favorite ecommerce "
+"provider, Event Tickets Plus includes options to collect custom information "
+"for attendees, check users in via QR codes, and share stock between %2$s. "
+"%3$s"
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:154
+msgid "Enable Tickets Commerce"
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:199
+msgid "-- No page set --"
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:214
+msgid "Enable Test Mode"
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:215
+msgid ""
+"Enables Test mode for testing payments. Any payments made will be done on "
+"\"sandbox\" accounts."
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:221
+#: src/admin-views/tribe-commerce-settings.php:136
+msgid "Currency Code"
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:222
+msgid "The currency that will be used for Tickets Commerce transactions."
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:229
+#: src/admin-views/tribe-commerce-settings.php:144
+msgid "Stock Handling"
+msgstr ""
+
+#. Translators: %s: The word "ticket" in lowercase.
+#: src/Tickets/Commerce/Settings.php:233
+msgctxt "tickets fields settings paypal stock handling"
+msgid ""
+"When a customer purchases a %s, the payment gateway might flag the order as "
+"Pending. The order will be Complete once payment is confirmed by the payment "
+"gateway."
+msgstr ""
+
+#. Translators: %s: The word "ticket" in lowercase.
+#: src/Tickets/Commerce/Settings.php:242
+#: src/admin-views/tribe-commerce-settings.php:150
+msgid "Decrease available %s stock as soon as a Pending order is created."
+msgstr ""
+
+#. Translators: %s: The word "ticket" in lowercase.
+#: src/Tickets/Commerce/Settings.php:247
+msgid ""
+"Only decrease available %s stock if an order is confirmed as Completed by "
+"the payment gateway."
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:255
+msgid "Checkout page"
+msgstr ""
+
+#. Translators: %s: The [shortcode] for the success page.
+#: src/Tickets/Commerce/Settings.php:259
+msgid ""
+"This is the page where customers go to complete their purchase. Use the %s "
+"shortcode to display the checkout experience in the page content."
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:270
+#: src/admin-views/tribe-commerce-settings.php:162
+msgid "Success page"
+msgstr ""
+
+#. Translators: %s: The [shortcode] for the success page.
+#: src/Tickets/Commerce/Settings.php:274
+msgid ""
+"After a successful order, users will be redirected to this page. Use the %s "
+"shortcode to display the order confirmation to the user in the page content."
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:285
+#: src/admin-views/tribe-commerce-settings.php:176
+msgid "Confirmation email sender address"
+msgstr ""
+
+#. Translators: %s: The word "tickets" in lowercase.
+#: src/Tickets/Commerce/Settings.php:289
+msgctxt "tickets fields settings confirmation email"
+msgid ""
+"Email address that %s customers will receive confirmation from. Leave empty "
+"to use the default WordPress site email address."
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:300
+#: src/admin-views/tribe-commerce-settings.php:185
+msgid "Confirmation email sender name"
+msgstr ""
+
+#. Translators: %s: The word "ticket" in lowercase.
+#: src/Tickets/Commerce/Settings.php:304
+#: src/admin-views/tribe-commerce-settings.php:186
+msgctxt "tickets fields settings paypal email sender"
+msgid ""
+"Sender name of the confirmation email sent to customers when confirming a %s "
+"purchase."
+msgstr ""
+
+#: src/Tickets/Commerce/Settings.php:315
+#: src/admin-views/tribe-commerce-settings.php:194
+msgid "Confirmation email subject"
+msgstr ""
+
+#. Translators: %s: The word "ticket" in lowercase.
+#: src/Tickets/Commerce/Settings.php:319
+#: src/admin-views/tribe-commerce-settings.php:195
+msgctxt "tickets fields settings paypal email subject"
+msgid ""
+"Subject of the confirmation email sent to customers when confirming a %s "
+"purchase."
+msgstr ""
+
+#. Translators: %s: The word "tickets" in lowercase.
+#: src/Tickets/Commerce/Settings.php:327
+#: src/admin-views/tribe-commerce-settings.php:197
+msgctxt "tickets fields settings paypal email subject"
+msgid "You have %s!"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Action_Required.php:29
+msgid "Action Required"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Approved.php:29
+msgid "Approved"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Completed.php:27
+#: src/Tribe/Commerce/PayPal/Orders/Sales.php:258
+#: src/admin-views/tpp-orders.php:173
+msgid "Completed"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Created.php:30
+msgid "Created"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Denied.php:28
+msgid "Denied"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Not_Completed.php:28
+msgid "Not Completed"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Pending.php:33
+msgid "Pending"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Pending.php:92
+msgid "This order contained an invalid Ticket (ID: %1$d)"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Pending.php:107
+msgid "This order contained a Ticket with an invalid Event (Event ID: %1$d)"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Pending.php:121
+msgid "Cannot purchase zero of \"%1$s\""
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Pending.php:138
+msgid "Insufficient stock for \"%1$s\""
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Refunded.php:27
+msgid "Refunded"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Reversed.php:27
+msgid "Reversed"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Undefined.php:28
+msgid "Undefined"
+msgstr ""
+
+#: src/Tickets/Commerce/Status/Voided.php:29
+msgid "Voided"
+msgstr ""
+
+#: src/Tickets/Commerce/Ticket.php:118 src/Tribe/Commerce/PayPal/Main.php:442
+msgid "Tickets"
+msgstr ""
+
+#: src/Tickets/Commerce/Ticket.php:120
+msgid "Tickets Commerce Tickets"
+msgstr ""
+
+#: src/Tickets/Commerce/Ticket.php:121
+msgid "Tickets Commerce Ticket"
+msgstr ""
+
+#: src/Tickets/Commerce/Tickets_View.php:109
+#: src/Tribe/Commerce/PayPal/Tickets_View.php:106
+msgid "This ticket is no longer active."
+msgstr ""
+
+#: src/Tickets/Commerce/Tickets_View.php:140
+#: src/Tribe/Commerce/PayPal/Tickets_View.php:137
+msgid "unavailable"
+msgstr ""
+
+#: src/Tribe/Abstract_Attendance_Totals.php:65
+msgctxt "total sold tooltip"
+msgid "Includes all ticketed attendees regardless of order status."
+msgstr ""
+
+#: src/Tribe/Abstract_Attendance_Totals.php:82
+msgctxt "total complete tooltip"
+msgid "Includes ticketed attendees with orders marked Completed."
+msgstr ""
+
+#: src/Tribe/Admin/Manager/Service_Provider.php:56
+msgid "Insecure request."
+msgstr ""
+
+#: src/Tribe/Admin/Manager/Service_Provider.php:89 src/Tribe/RSVP.php:268
+msgid "Something happened here."
+msgstr ""
+
+#: src/Tribe/Admin/Manager/Service_Provider.php:176
+msgid "Manage attendees"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Ticket_Types.php:28
+msgid "Move %s Types"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Ticket_Types.php:72
+#: src/Tribe/Admin/Move_Tickets.php:258
+msgid "All supported types"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Ticket_Types.php:106
+msgid ""
+"%1$s type could not be moved: the %2$s type or destination post was invalid."
+msgstr ""
+
+#: src/Tribe/Admin/Move_Ticket_Types.php:115
+msgid "%s type could not be moved: unexpected failure during reassignment."
+msgstr ""
+
+#: src/Tribe/Admin/Move_Ticket_Types.php:121
+msgid ""
+"%1$s type %2$s for %3$s was successfully moved to %4$s. All previously sold "
+"%5$s of this type have been transferred to %4$s. Please adjust capacity and "
+"stock manually as needed. %2$s %6$s holders have received an email notifying "
+"them of the change. You may now close this window!"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Ticket_Types.php:219
+msgid ""
+"%1$s type was moved to <a href=\"%2$s\" target=\"_blank\">%3$s</a> from <a "
+"href=\"%4$s\" target=\"_blank\">%5$s</a>"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Ticket_Types.php:320
+#: src/Tribe/Admin/Move_Tickets.php:753
+msgid "Changes to your tickets from %s"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:77
+msgid "Move Attendees"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:112
+msgid ""
+"Woops! We could not complete the requested operation due to an unforeseen "
+"problem."
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:113
+msgid "Unable to update the post list. Please refresh the page and try again."
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:114
+msgid "No results found - you may need to widen your search criteria."
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:115
+msgid "No ticket types were found for this post."
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:116
+msgid "Loading, please wait&hellip;"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:231
+msgctxt "attendee screen bulk actions"
+msgid "Move"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:445
+msgid ""
+"%1$s could not be moved: valid %2$s IDs or a destination ID were not "
+"provided."
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:457
+msgid ""
+"%s could not be moved: there was an unexpected failure during reassignment."
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:466
+msgctxt "moved tickets success message fragment"
+msgid "assigned to %s"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:473
+msgctxt "moved tickets success message fragment"
+msgid "moved to %s and"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:480
+msgid ""
+"%1$d attendee for %2$s was successfully %3$s. By default, we adjust capacity "
+"and stock, however, we recommend reviewing each as needed to ensure numbers "
+"are correct. This attendee will receive an email notifying them of the "
+"change."
+msgid_plural ""
+"%1$d attendees for %2$s were successfully %3$s. By default, we adjust "
+"capacity and stock, however, we recommend reviewing each as needed to ensure "
+"numbers are correct. These attendees will receive an email notifying them of "
+"the change."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Tribe/Admin/Move_Tickets.php:628
+msgid "This ticket was moved to %1$s %2$s from %3$s %4$s"
+msgstr ""
+
+#: src/Tribe/Admin/Move_Tickets.php:815
+msgid "This ticket was moved to %1$s from %2$s"
+msgstr ""
+
+#: src/Tribe/Admin/Notices.php:88
+msgctxt "Admin notice link text"
+msgid "RSVP Display Settings"
+msgstr ""
+
+#. translators: %1$s: RSVP singular text, %2$s: Link to settings page.
+#: src/Tribe/Admin/Notices.php:97
+msgid ""
+"With this new version, we've introduced newly redesigned %1$s frontend "
+"views. If you have customized the %1$s section, this update will likely "
+"impact your customizations.\n"
+"\n"
+"\t\t\tTo upgrade to the new frontend views, please enable them in the %2$s."
+msgstr ""
+
+#. Translators: %1$s: dynamic "Tickets" text, %2$s: dynamic "Event" text.
+#: src/Tribe/Admin/Notices.php:152
+msgctxt ""
+"heading for classic editor notice if Events Calendar Pro event has tickets"
+msgid "%1$s for Recurring %2$s"
+msgstr ""
+
+#. Translators: %1$s: dynamic "event" text, %2$s: dynamic "ticket" text, %3$s:
+#. dynamic "tickets" text, %4$s: dynamic "RSVP" text, %5$s: dynamic "Ticket"
+#. text.
+#: src/Tribe/Admin/Notices.php:163
+msgctxt ""
+"text for classic editor notice if Events Calendar Pro event has tickets"
+msgid ""
+"Heads up! You saved a recurring %1$s with a %2$s. Please note that we do not "
+"currently support recurring %3$s. Only the first instance of this recurring "
+"series will have your %4$s or %5$s displayed."
+msgstr ""
+
+#: src/Tribe/Admin/Notices.php:218
+msgid "WooCommerce"
+msgstr ""
+
+#: src/Tribe/Admin/Notices.php:219
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#. translators: %1$s: The ticket commerce provider (WooCommerce, etc); %2$s:
+#. The Event Tickets Plus plugin name and link.
+#: src/Tribe/Admin/Notices.php:229
+msgid ""
+"Event Tickets does not support ticket sales via third party ecommerce "
+"plugins. If you want to sell tickets with %1$s, please purchase a license "
+"for %2$s."
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:49
+#: src/admin-views/admin-welcome-message.php:135
+msgid "Getting Started Guide"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:54
+msgid "Configuring PayPal for Ticket Purchases"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:58
+msgid "Configuring Tribe Commerce"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:62
+msgid "Using RSVPs"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:66
+msgid "Managing Orders and Attendees"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:70
+msgid "Event Tickets Manual"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:77
+msgid "Switching from Tribe Commerce to WooCommerce"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:81
+msgid "Setting Up E-Commerce Plugins for Selling Tickets"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:85
+msgid "Tickets & WooCommerce"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:89
+msgid "Creating Tickets"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:93
+msgid "Event Tickets and Event Tickets Plus Settings Overview"
+msgstr ""
+
+#: src/Tribe/Admin/Settings/Service_Provider.php:97
+msgid "Event Tickets Plus Manual"
+msgstr ""
+
+#: src/Tribe/Admin/Ticket_History.php:34
+msgctxt "attendee table"
+msgid "View history"
+msgstr ""
+
+#: src/Tribe/Admin/Ticket_History.php:35
+msgctxt "attendee table"
+msgid "Hide history"
+msgstr ""
+
+#: src/Tribe/Admin/Ticket_History.php:65
+msgid "No history available"
+msgstr ""
+
+#: src/Tribe/Admin/Views/Ticketed.php:48
+msgid "Ticketed"
+msgstr ""
+
+#: src/Tribe/Admin/Views/Ticketed.php:61
+msgid "Unticketed"
+msgstr ""
+
+#: src/Tribe/Assets.php:196 src/views/tickets/tpp-success.php:97
+msgid "%s header image"
+msgstr ""
+
+#: src/Tribe/Assets.php:197
+msgid "Set as %s header"
+msgstr ""
+
+#: src/Tribe/Assets.php:253
+msgid "Are you sure you want to delete this ticket? This cannot be undone."
+msgstr ""
+
+#: src/Tribe/Assets.php:259
+msgid ""
+"It looks like you have modified your shared capacity setting but have not "
+"saved or updated the post."
+msgstr ""
+
+#: src/Tribe/Assets.php:279 src/Tribe/Metabox.php:575
+msgid "Please enter in without thousand separators and currency symbols."
+msgstr ""
+
+#: src/Tribe/Assets.php:472
+msgid ""
+"There is unsaved attendee information. Are you sure you want to continue?"
+msgstr ""
+
+#: src/Tribe/Attendance_Totals.php:29
+msgctxt "attendee summary"
+msgid "Deleted Attendees:"
+msgstr ""
+
+#: src/Tribe/Attendee_Registration/Template.php:398
+#: src/views/v2/rsvp/ari/sidebar/title.php:15
+msgid "Attendee Registration"
+msgstr ""
+
+#: src/Tribe/Attendees.php:84
+msgid "Post type"
+msgstr ""
+
+#: src/Tribe/Attendees.php:113
+msgctxt "attendee event actions"
+msgid "Edit %s"
+msgstr ""
+
+#: src/Tribe/Attendees.php:114
+msgctxt "attendee event actions"
+msgid "View %s"
+msgstr ""
+
+#: src/Tribe/Attendees.php:117
+msgctxt "attendee event actions"
+msgid "Edit"
+msgstr ""
+
+#: src/Tribe/Attendees.php:118
+msgctxt "attendee event actions"
+msgid "View"
+msgstr ""
+
+#: src/Tribe/Attendees.php:145
+msgctxt "attendee summary"
+msgid "Checked in:"
+msgstr ""
+
+#: src/Tribe/Attendees.php:210 src/admin-views/list.php:93
+msgid "See who purchased tickets to this event"
+msgstr ""
+
+#: src/Tribe/Attendees.php:320
+msgid "You need to select a user or type a valid email address"
+msgstr ""
+
+#: src/Tribe/Attendees.php:321
+msgid "Sending..."
+msgstr ""
+
+#: src/Tribe/Attendees.php:325
+msgid "You must first select one or more tickets before you can move them!"
+msgstr ""
+
+#: src/Tribe/Attendees.php:327
+msgid "Please confirm that you would like to delete this attendee."
+msgstr ""
+
+#: src/Tribe/Attendees.php:328
+msgid "Please confirm you would like to delete these attendees."
+msgstr ""
+
+#: src/Tribe/Attendees.php:363
+msgid "Columns"
+msgstr ""
+
+#: src/Tribe/Attendees.php:363
+msgid ""
+"You can use Screen Options to select which columns you want to see. The "
+"selection works in the table below, in the email, for print and for the CSV "
+"export."
+msgstr ""
+
+#: src/Tribe/Attendees.php:441
+msgid "%s - Attendee list"
+msgstr ""
+
+#: src/Tribe/Attendees.php:514
+msgctxt "attendee export"
+msgid "Order ID"
+msgstr ""
+
+#: src/Tribe/Attendees.php:515
+msgctxt "attendee export"
+msgid "Order Status"
+msgstr ""
+
+#: src/Tribe/Attendees.php:516
+msgctxt "attendee export"
+msgid "%s ID"
+msgstr ""
+
+#: src/Tribe/Attendees.php:517
+msgctxt "attendee export"
+msgid "Ticket Holder Name"
+msgstr ""
+
+#: src/Tribe/Attendees.php:518
+msgctxt "attendee export"
+msgid "Ticket Holder Email Address"
+msgstr ""
+
+#: src/Tribe/Attendees.php:519
+msgctxt "attendee export"
+msgid "Purchaser Name"
+msgstr ""
+
+#: src/Tribe/Attendees.php:520
+msgctxt "attendee export"
+msgid "Purchaser Email Address"
+msgstr ""
+
+#: src/Tribe/Attendees.php:549 src/admin-views/tribe-commerce-settings.php:93
+#: src/admin-views/tribe-commerce-settings.php:105
+msgid "Yes"
+msgstr ""
+
+#: src/Tribe/Attendees.php:660
+msgid "attendees"
+msgstr ""
+
+#: src/Tribe/Attendees.php:698
+msgid "Invalid Event ID"
+msgstr ""
+
+#: src/Tribe/Attendees.php:715
+msgid "Cheatin Huh?"
+msgstr ""
+
+#: src/Tribe/Attendees.php:721
+msgid "Empty user and email"
+msgstr ""
+
+#: src/Tribe/Attendees.php:733
+msgid "Invalid Email"
+msgstr ""
+
+#: src/Tribe/Attendees.php:739 src/Tribe/Attendees.php:755
+msgid "Invalid User ID"
+msgstr ""
+
+#: src/Tribe/Attendees.php:775
+msgid "Attendee List for: %s"
+msgstr ""
+
+#: src/Tribe/Attendees.php:776
+msgid "Error when sending the email"
+msgstr ""
+
+#: src/Tribe/Attendees.php:783
+msgid "Email sent successfully!"
+msgstr ""
+
+#: src/Tribe/Attendees.php:998 src/Tribe/Attendees_Table.php:598
+msgid "Export"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:65
+msgid "Number of attendees per page:"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:117
+msgctxt "attendee table"
+msgid "Primary Information"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:118
+msgctxt "attendee table"
+msgid "Security Code"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:119
+msgctxt "attendee table"
+msgid "Status"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:120 src/Tribe/Attendees_Table.php:127
+msgctxt "attendee table"
+msgid "Check in"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:393
+msgctxt "row action"
+msgid "Check In"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:394
+msgctxt "row action"
+msgid "Undo Check In"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:403
+msgctxt "row action"
+msgid "Move"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:415
+msgctxt "row action"
+msgid "Delete"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:495
+msgid "View order"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:597
+msgid "Print"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:605
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:100 src/Tribe/Privacy.php:189
+#: src/Tribe/Privacy.php:470 src/Tribe/Privacy.php:566
+#: src/views/blocks/rsvp/form/email.php:32 src/views/tickets/rsvp.php:237
+#: src/views/v2/rsvp/ari/form/fields/email.php:33
+#: src/views/v2/rsvp/form/fields/email.php:34
+msgid "Email"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:632 src/admin-views/list.php:41
+msgid "Delete"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:633
+msgid "Check in"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:634
+msgid "Undo Check in"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:961
+msgid "No matching attendees found."
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:975
+msgctxt "Attendees Table search options"
+msgid "Search by Purchaser Name"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:976
+msgctxt "Attendees Table search options"
+msgid "Search by Purchaser Email"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:977
+msgctxt "Attendees Table search options"
+msgid "Search by Ticket Holder Name"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:978
+msgctxt "Attendees Table search options"
+msgid "Search by Ticket Holder Email"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:979
+msgctxt "Attendees Table search options"
+msgid "Search by User ID"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:980
+msgctxt "Attendees Table search options"
+msgid "Search by Order Status"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:981
+msgctxt "Attendees Table search options"
+msgid "Search by Order ID"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:982
+msgctxt "Attendees Table search options"
+msgid "Search by Security Code"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:983
+msgctxt "Attendees Table search options"
+msgid "Search by %s ID"
+msgstr ""
+
+#: src/Tribe/Attendees_Table.php:984
+msgctxt "Attendees Table search options"
+msgid "Search by Product ID"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:34
+msgid "Event Name or ID or Slug"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:35
+msgid "%s Name"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:36
+msgid "%s Description"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:37
+msgid "%s Show Description"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:38
+msgid "%s Start Sale Date"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:39
+msgid "%s Start Sale Time"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:40
+msgid "%s End Sale Date"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:41
+msgid "%s End Sale Time"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:42
+msgid "%s Stock"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/Column_Names.php:43
+msgid "%s Capacity"
+msgstr ""
+
+#: src/Tribe/CSV_Importer/RSVP_Importer.php:250
+msgid "Recurring event tickets are not supported, event %s."
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:196
+msgid "Australian Dollar (AUD)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:202
+msgid "Brazilian Real  (BRL)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:208
+msgid "Canadian Dollar (CAD)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:214
+msgid "Swiss Franc (CHF)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:220
+msgid "Czech Koruna (CZK)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:227
+msgid "Danish Krone (DKK)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:233
+msgid "Euro (EUR)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:239
+msgid "Pound Sterling (GBP)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:245
+msgid "Hong Kong Dollar (HKD)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:251
+msgid "Hungarian Forint (HUF)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:257
+msgid "Israeli New Sheqel (ILS)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:263
+msgid "Indian Rupee (INR)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:269
+msgid "Japanese Yen (JPY)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:275
+msgid "Malaysian Ringgit (MYR)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:281
+msgid "Mexican Peso (MXN)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:287
+msgid "Norwegian Krone (NOK)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:293
+msgid "New Zealand Dollar (NZD)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:299
+msgid "Philippine Peso (PHP)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:305
+msgid "Polish Zloty (PLN)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:311
+msgid "Russian Ruble (RUB)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:317
+msgid "Swedish Krona (SEK)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:323
+msgid "Singapore Dollar (SGD)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:329
+msgid "Thai Baht (THB)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:335
+msgid "Taiwan New Dollar (TWD)"
+msgstr ""
+
+#: src/Tribe/Commerce/Currency.php:341
+msgid "U.S. Dollar (USD)"
+msgstr ""
+
+#. Translators: %1$s: the post/event title, %2$d: the post/event ID.
+#: src/Tribe/Commerce/Orders_Tabbed_View.php:36
+#: src/admin-views/attendees.php:34
+msgctxt "attendees report screen heading"
+msgid "Attendees for: %1$s [#%2$d]"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Endpoints/Success_Template.php:99
+msgid "pending"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Errors.php:24
+msgid "There was an error"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Errors.php:25
+msgid "Attendee email and/or full name is missing"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Errors.php:26
+msgid ""
+"Trying to oversell a %s but the current oversell policy does not allow it"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Errors.php:27
+msgid "%s quantity is 0"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Errors.php:30
+msgid ""
+"In order to purchase %s, you must enter your name and a valid email address."
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Errors.php:31
+msgid "You can't add more %1$s than the total remaining %1$s."
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Errors.php:32
+msgid "You should add at least one %s."
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Errors.php:35
+msgid ""
+"Your order is currently processing. Once completed, you'll receive your "
+"%s(s) in an email."
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Handler/IPN.php:143
+msgctxt "a PayPal configuration status"
+msgid "complete"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Handler/IPN.php:147
+#: src/Tribe/Commerce/PayPal/Handler/Invalid_PDT.php:74
+#: src/Tribe/Commerce/PayPal/Handler/PDT.php:136
+msgctxt "a PayPal configuration status"
+msgid "incomplete"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Links.php:29
+msgid ""
+"Profile and Settings > My selling tools > Instant Payment Notification > IPN "
+"History Page"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Links.php:56
+msgid ""
+"Profile and Settings > My selling tools > Instant Payment Notification > "
+"Update"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Main.php:187
+msgctxt "ticket provider"
+msgid "Tribe Commerce"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Main.php:444
+msgid "Tribe Commerce Tickets"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Main.php:445
+msgid "Tribe Commerce Ticket"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Notices.php:43
+msgid "PayPal is using PDT data but you have not set the PDT identity token"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Notices.php:45
+msgid "set it here"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Report.php:106
+msgid "See PayPal purchases for this %s"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Report.php:108
+#: src/Tribe/Commerce/PayPal/Orders/Report.php:157
+#: src/Tribe/Commerce/PayPal/Orders/Tab.php:33
+msgid "PayPal Orders"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Report.php:216
+msgctxt "Browser title"
+msgid "%s - PayPal Orders"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Report.php:321
+msgid "Search Orders"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Sales.php:262
+msgid "Not completed"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:42
+msgid "Number of orders per page:"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:98
+msgid "Order"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:99
+msgid "Purchaser"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:101
+msgid "Purchased"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:102 src/Tribe/Privacy.php:194
+#: src/Tribe/Privacy.php:475 src/Tribe/Privacy.php:571
+msgid "Date"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:103
+msgid "Status"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:106
+msgid "Total"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:177
+msgid "%1$s"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:184
+msgid "Refunded with %s"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Orders/Table.php:274
+msgid "No matching orders found."
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/Admin_Notice_Decorator.php:111
+msgid "An event"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/Admin_Notice_Decorator.php:123
+msgid "in your PayPal account"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/Admin_Notice_Decorator.php:125
+msgid ""
+"%1$s is oversold: there are more %2$s sold than the available capacity. This "
+"can occur when the PayPal transaction is not completed immediately, delaying "
+"the decrease in %3$s availability. Order %4$s includes %5$s %3$s(s). There "
+"are only %6$s %3$s(s) left. %7$s emails have not yet been sent for this "
+"order. Choose how to process this order from the options below."
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/Admin_Notice_Decorator.php:221
+msgid ""
+"Create attendee records and send emails for all tickets in this order "
+"(overselling the event)."
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/Admin_Notice_Decorator.php:228
+msgid ""
+"Delete all attendees for this order and do not email tickets. You may also "
+"want to refund the order %1$sin your PayPal account%2$s."
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/Admin_Notice_Decorator.php:246
+msgid "Process order"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/No_Oversell.php:46
+msgid "Do not oversell"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/Sell_All.php:46
+msgid "Oversell all requested"
+msgstr ""
+
+#: src/Tribe/Commerce/PayPal/Oversell/Sell_Available.php:47
+msgid "Sell only available"
+msgstr ""
+
+#: src/Tribe/Editor/Attendee_Registration.php:127
+msgid "return to the content editor"
+msgstr ""
+
+#: src/Tribe/Editor/Attendee_Registration.php:129
+msgid "Attendee Registration fields saved. Make additional changes or %1$s"
+msgstr ""
+
+#: src/Tribe/Editor/Attendee_Registration.php:153
+msgid "Back to Editor"
+msgstr ""
+
+#: src/Tribe/Editor/Attendee_Registration.php:162
+msgid "Save Changes"
+msgstr ""
+
+#: src/Tribe/Editor/Attendee_Registration.php:174
+msgid "Are you sure you want to leave this page?"
+msgstr ""
+
+#: src/Tribe/Editor/Blocks/Attendees.php:27
+msgid "Who's coming?"
+msgstr ""
+
+#: src/Tribe/Editor/Blocks/Rsvp.php:261
+msgid "Are you sure you want to cancel?"
+msgstr ""
+
+#: src/Tribe/Editor/Blocks/Tickets.php:297 src/Tribe/Tickets.php:4201
+msgctxt "Error message title, will be followed by the error code."
+msgid "API Error"
+msgstr ""
+
+#: src/Tribe/Editor/Blocks/Tickets.php:298 src/Tribe/Tickets.php:4202
+msgid ""
+"Refresh this page or wait a few minutes before trying again. If this happens "
+"repeatedly, please contact the Site Admin."
+msgstr ""
+
+#: src/Tribe/Editor/Blocks/Tickets.php:299 src/Tribe/Tickets.php:4203
+msgid ""
+"The ticket for this event has sold out and has been removed from your cart."
+msgstr ""
+
+#: src/Tribe/Editor/Blocks/Tickets.php:300 src/Tribe/Tickets.php:4204
+msgid "Whoops!"
+msgstr ""
+
+#: src/Tribe/Editor/Blocks/Tickets.php:301 src/Tribe/Tickets.php:4205
+msgctxt "The %s will change based on the error produced."
+msgid "You have %s ticket(s) with a field that requires information."
+msgstr ""
+
+#: src/Tribe/Editor/REST/V1/Endpoints/Single_Ticket.php:17
+#: src/Tribe/Editor/REST/V1/Endpoints/Single_Ticket.php:135
+#: src/Tribe/REST/V1/Endpoints/Single_Ticket.php:72
+msgid "The ticket post ID"
+msgstr ""
+
+#: src/Tribe/Editor/REST/V1/Endpoints/Single_Ticket.php:56
+#: src/Tribe/Editor/REST/V1/Endpoints/Single_Ticket.php:233
+msgid "Invalid nonce"
+msgstr ""
+
+#: src/Tribe/Editor/REST/V1/Endpoints/Single_Ticket.php:66
+#: src/Tribe/Editor/REST/V1/Endpoints/Single_Ticket.php:252
+#: src/Tribe/Metabox.php:221 src/Tribe/Metabox.php:282
+#: src/Tribe/Metabox.php:326 src/Tribe/Metabox.php:367
+#: src/Tribe/Metabox.php:405
+msgid "Commerce Module invalid"
+msgstr ""
+
+#: src/Tribe/Editor/REST/V1/Endpoints/Single_Ticket.php:284
+msgid "%s was not able to be updated"
+msgstr ""
+
+#. translators: %1$s: URL for help link, %2$s: Label for help link.
+#: src/Tribe/Editor/Warnings.php:77
+msgctxt "Helper link in Ticket Editor"
+msgid "Learn More"
+msgstr ""
+
+#. translators: %1$s: link to help article.
+#: src/Tribe/Editor/Warnings.php:83
+msgid ""
+"There is no payment gateway configured. To create tickets, you'll need to "
+"enable and configure an ecommerce solution. %1$s"
+msgstr ""
+
+#: src/Tribe/Editor/Warnings.php:97
+msgid ""
+"This is a recurring event. If you add tickets, they will only show up on "
+"first event in the recurrence series. Please carefully configure your "
+"recurring events."
+msgstr ""
+
+#: src/Tribe/Editor.php:208
+msgid "Tickets Blocks"
+msgstr ""
+
+#: src/Tribe/Events/Views/V2/Models/Tickets.php:150
+msgctxt "events rsvp full (v2)"
+msgid "Currently full"
+msgstr ""
+
+#: src/Tribe/Events/Views/V2/Models/Tickets.php:152
+msgctxt "events stock sold out (v2)"
+msgid "Sold Out"
+msgstr ""
+
+#. translators: %1$s: Number of stock
+#: src/Tribe/Events/Views/V2/Models/Tickets.php:193
+msgid "%1$s spot left"
+msgid_plural "%1$s spots left"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %1$s: Number of stock, %2$s: Ticket label, %3$s: Tickets label
+#: src/Tribe/Events/Views/V2/Models/Tickets.php:196
+msgid "%1$s %2$s left"
+msgid_plural "%1$s %3$s left"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: RSVP singular label.
+#: src/Tribe/Events/Views/V2/Models/Tickets.php:207
+msgctxt "list view rsvp now ticket button"
+msgid "%s Now"
+msgstr ""
+
+#. Translators: Tickets plural label.
+#: src/Tribe/Events/Views/V2/Models/Tickets.php:211
+msgctxt "list view buy now ticket button"
+msgid "Get %s"
+msgstr ""
+
+#: src/Tribe/Integrations/Freemius.php:342
+msgid "We hope you love %1$s"
+msgstr ""
+
+#: src/Tribe/Integrations/Freemius.php:347
+msgid ""
+"Hi, %1$s! This is an invitation to help our %2$s community. If you opt-in, "
+"some data about your usage of %2$s will be shared with our teams (so they "
+"can work their butts off to improve). We will also share some helpful info "
+"on events management, WordPress, and our products from time to time."
+msgstr ""
+
+#: src/Tribe/Integrations/Freemius.php:351
+msgid "And if you skip this, that's okay! %1$s will still work just fine."
+msgstr ""
+
+#: src/Tribe/Integrations/Freemius.php:355
+msgid "Powered by"
+msgstr ""
+
+#: src/Tribe/JSON_LD/Order.php:132 src/Tribe/RSVP.php:1612
+#: src/admin-views/editor/column-body-price.php:18
+msgid "Free"
+msgstr ""
+
+#: src/Tribe/Main.php:144
+msgctxt "provider_plugin_name"
+msgid "Tickets"
+msgstr ""
+
+#: src/Tribe/Main.php:430
+msgid ""
+"When The Events Calendar and Event Tickets are both activated, The Events "
+"Calendar must be running version %1$s or greater. Please %2$supdate now.%3$s"
+msgstr ""
+
+#: src/Tribe/Main.php:493
+msgid ""
+"Sorry, Event Tickets requires WordPress %s or higher. Please upgrade your "
+"WordPress install."
+msgstr ""
+
+#: src/Tribe/Main.php:497
+msgid ""
+"Sorry, Event Tickets requires PHP %s or higher. Talk to your Web host about "
+"moving you to a newer version of PHP."
+msgstr ""
+
+#: src/Tribe/Main.php:621
+msgid "Support for Event Tickets"
+msgstr ""
+
+#: src/Tribe/Main.php:623
+msgid "Settings overview"
+msgstr ""
+
+#: src/Tribe/Main.php:624
+msgid "Features overview"
+msgstr ""
+
+#: src/Tribe/Main.php:625
+msgid "Troubleshooting common problems"
+msgstr ""
+
+#: src/Tribe/Main.php:626
+msgid "Customizing Event Tickets"
+msgstr ""
+
+#: src/Tribe/Main.php:643
+msgid "New User Primer"
+msgstr ""
+
+#: src/Tribe/Main.php:645
+msgctxt "help feature box section"
+msgid ""
+"We are committed to helping you sell %1$s for your event. Check out our "
+"handy %2$s to get started."
+msgstr ""
+
+#: src/Tribe/Main.php:662
+msgid "open-source forum on WordPress.org"
+msgstr ""
+
+#: src/Tribe/Main.php:663
+msgid ""
+"If you have tried the above steps and are still having trouble, you can post "
+"a new thread to our %s. Our support staff monitors these forums once a week "
+"and would be happy to assist you there."
+msgstr ""
+
+#: src/Tribe/Main.php:665
+msgid "premium support on our website"
+msgstr ""
+
+#: src/Tribe/Main.php:667
+msgid ""
+"Looking for more immediate support? We offer %1$s with the purchase of any "
+"of our premium plugins (like %2$s). Pick up a license and you can post there "
+"directly and expect a response within 24-48 hours during weekdays."
+msgstr ""
+
+#: src/Tribe/Main.php:669 src/Tribe/Main.php:674
+msgid "post a thread"
+msgstr ""
+
+#: src/Tribe/Main.php:670
+msgid ""
+"Already have Event Tickets Plus? You can %s in our premium support forums. "
+"Our support team monitors the forums and will respond to your thread within "
+"24-48 hours (during the week)."
+msgstr ""
+
+#: src/Tribe/Main.php:675
+msgid ""
+"If you have a valid license for one of our paid plugins, you can %s in our "
+"premium support forums. Our support team monitors the forums and will "
+"respond to your thread within 24-48 hours (during the week)."
+msgstr ""
+
+#: src/Tribe/Main.php:697
+msgid "Event Tickets - Legacy"
+msgstr ""
+
+#: src/Tribe/Main.php:833
+msgid "Welcome to Event Tickets!"
+msgstr ""
+
+#: src/Tribe/Main.php:986
+msgid "Buy"
+msgstr ""
+
+#: src/Tribe/Main.php:1065
+msgid ""
+"When Event Tickets and Event Tickets Plus are both activated, Event Tickets "
+"Plus must be running version %1$s or greater. Please %2$smanually update now"
+"%3$s."
+msgstr ""
+
+#: src/Tribe/Metabox.php:113
+msgid "Invalid Post ID"
+msgstr ""
+
+#: src/Tribe/Metabox.php:198 src/Tribe/Metabox.php:266
+#: src/Tribe/Metabox.php:310
+msgid "Invalid parent Post"
+msgstr ""
+
+#: src/Tribe/Metabox.php:208
+msgid "Failed to add the %s. Refresh the page to try again."
+msgstr ""
+
+#: src/Tribe/Metabox.php:212
+msgid "Commerce Provider invalid"
+msgstr ""
+
+#: src/Tribe/Metabox.php:238
+msgid "Failed to add the %s"
+msgstr ""
+
+#: src/Tribe/Metabox.php:272 src/Tribe/Metabox.php:316
+msgid "Invalid %s"
+msgstr ""
+
+#: src/Tribe/Metabox.php:276
+msgid "Failed to edit the %s. Refresh the page to try again."
+msgstr ""
+
+#: src/Tribe/Metabox.php:320
+msgid "Failed to delete the %s. Refresh the page to try again."
+msgstr ""
+
+#: src/Tribe/Metabox.php:359 src/Tribe/Metabox.php:397
+msgid "The attendee ID is missing from the request parameters."
+msgstr ""
+
+#: src/Tribe/Privacy.php:43
+msgid "Hide my attendee data from public view."
+msgstr ""
+
+#: src/Tribe/Privacy.php:44
+msgid "Allow use of my attendee data publicly on this site."
+msgstr ""
+
+#: src/Tribe/Privacy.php:96 src/Tribe/Privacy.php:123
+msgid "Event Tickets RSVP Attendee"
+msgstr ""
+
+#: src/Tribe/Privacy.php:101 src/Tribe/Privacy.php:128
+msgid "Event Tickets TribeCommerce Attendee"
+msgstr ""
+
+#: src/Tribe/Privacy.php:106 src/Tribe/Privacy.php:133
+msgid "Event Tickets TribeCommerce Order"
+msgstr ""
+
+#: src/Tribe/Privacy.php:174
+msgid "Event Tickets RSVP Attendee Data"
+msgstr ""
+
+#: src/Tribe/Privacy.php:179
+msgid "RSVP Title"
+msgstr ""
+
+#: src/Tribe/Privacy.php:184 src/Tribe/Privacy.php:465
+#: src/views/blocks/rsvp/form/name.php:31 src/views/tickets/rsvp.php:229
+msgid "Full Name"
+msgstr ""
+
+#: src/Tribe/Privacy.php:273
+msgid ""
+"RSVP information was not removed. A database error may have occurred during "
+"deletion."
+msgstr ""
+
+#: src/Tribe/Privacy.php:337
+msgid ""
+"TribeCommerce attendee information was not removed. A database error may "
+"have occurred during deletion."
+msgstr ""
+
+#: src/Tribe/Privacy.php:406
+msgid ""
+"TribeCommerce order information was not removed. A database error may have "
+"occurred during deletion."
+msgstr ""
+
+#: src/Tribe/Privacy.php:455
+msgid "Event Tickets TribeCommerce Attendee Data"
+msgstr ""
+
+#: src/Tribe/Privacy.php:460
+msgid "Order Title"
+msgstr ""
+
+#: src/Tribe/Privacy.php:539
+msgid "Event Tickets TribeCommerce Order Data"
+msgstr ""
+
+#: src/Tribe/Privacy.php:544
+msgid "Order Number"
+msgstr ""
+
+#: src/Tribe/Privacy.php:549 src/views/tickets/tpp-success.php:136
+msgid "Order Total"
+msgstr ""
+
+#: src/Tribe/Privacy.php:561
+msgid "Billing Address"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:20
+msgid "The attendee WordPress post ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:24
+msgid "The ID of the post the attendee is associated to"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:28
+msgid "The ID of the ticket the attendee is associated with"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:32
+msgid "The attendee global ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:39
+msgid "The attendee global ID lineage"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:43
+msgid "The attendee post author ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:47
+msgid "The attendee post status"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:52
+msgid "The attendee creation date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:57
+msgid "The attendee creation UTC date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:62
+msgid "The attendee modification date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:67
+msgid "The attendee modification UTC date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:72
+msgid "The attendee ET REST API URL"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:76
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:72
+msgid "The ticket commerce provider"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:81
+msgid ""
+"The order number, or identifier, of the ticket purchase that generated the "
+"attendee"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:85
+msgid "The attendee ticket SKU"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:89
+msgid "The attendee title or name"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:94
+msgid "The attendee email address"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:98
+msgid "Whether the attendee is checked-in or not"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:105
+msgid ""
+"If the attendee is for an RSVP ticket, this will be set to true if he/she is "
+"\"Going\", false otherwise"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Attendee_Definition_Provider.php:112
+msgid "The attendee information; requires ET+"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Capacity_Details_Definition_Provider.php:20
+msgid "The %s available capacity percentage"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Capacity_Details_Definition_Provider.php:24
+msgid "The %s max capacity"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Capacity_Details_Definition_Provider.php:28
+msgid "The %s current available capacity"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Capacity_Details_Definition_Provider.php:32
+msgid "The %s sale count"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Capacity_Details_Definition_Provider.php:36
+msgid "The %s pending count"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Checkin_Details_Definition_Provider.php:20
+msgid "The time the attendee checked in"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Checkin_Details_Definition_Provider.php:27
+msgid "The check-in source for the attendee; e.g. \"kiosk\" or \"site\""
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Checkin_Details_Definition_Provider.php:31
+msgid ""
+"The ID or identifying string of the site user or operator that checked in "
+"the attendee"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Checkin_Report_Definition_Provider.php:20
+msgid "The number of checked-in attendees"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Checkin_Report_Definition_Provider.php:24
+msgid "The number of unchecked-in attendees"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Checkin_Report_Definition_Provider.php:28
+msgid "The percentage of checked-in attendees"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Checkin_Report_Definition_Provider.php:32
+msgid "The number of unchecked-in attendee"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Payment_Details_Definition_Provider.php:20
+msgid "The payment provider/gateway"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Payment_Details_Definition_Provider.php:24
+msgid "The price paid by the attendee when he/she purchased the ticket"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Payment_Details_Definition_Provider.php:28
+msgid "The currency used by the attendee to pay"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Payment_Details_Definition_Provider.php:33
+msgid "The payment date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/RSVP_Report_Definition_Provider.php:20
+msgid "How many attendees are \"Going\""
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/RSVP_Report_Definition_Provider.php:24
+msgid "How many attendees are \"Not going\""
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:20
+msgid "The ticket WordPress post ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:24
+msgid "The ID of the post the ticket is associated to"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:28
+msgid "The ticket global ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:35
+msgid "The ticket global ID lineage"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:39
+msgid "The ticket post author ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:43
+msgid "The ticket post status"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:48
+msgid "The ticket creation date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:53
+msgid "The ticket creation UTC date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:58
+msgid "The ticket modification date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:63
+msgid "The ticket modification UTC date"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:68
+msgid "The ticket ET REST API URL"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:77
+msgid "The ticket title"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:81
+msgid "The ticket description"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:89
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:97
+msgid "The date the ticket will be available"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:104
+msgid "The formatted ticket current capacity"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:111
+msgid ""
+"Whether the ticket is currently available or not due to capacity or date "
+"constraints"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:115
+msgid "The formatted cost string"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:125
+msgid "A list of attendees for the ticket, "
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:129
+msgid ""
+"Whether the ticket supports at least one attendee information field, ET+ "
+"required"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:133
+msgid ""
+"Whether the ticket requires at least one attendee information field, ET+ "
+"required"
+msgstr ""
+
+#: src/Tribe/REST/V1/Documentation/Ticket_Definition_Provider.php:137
+msgid ""
+"A list of attendee information fields supported/required by the ticket in "
+"the format [ <field-slug>: label, required, type, extra ]"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:26
+msgid "Returns all the attendees matching the search criteria"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:35
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:35
+msgid "This results page REST URL"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:39
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:39
+msgid "The total number of results across all pages"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:43
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:43
+msgid "The total number of result pages matching the search criteria"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:55
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:55
+msgid "One or more of the specified query variables has a bad format"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:65
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:65
+msgid "The requested page was not found."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:91
+#: src/Tribe/REST/V1/Endpoints/Single_Attendee.php:90
+msgid "Sorry, Event Tickets Plus must be active to use this endpoint."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:205
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:239
+msgid "The page of results to return; defaults to 1"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:213
+msgid ""
+"How many attendees to return per results page; defaults to posts_per_page."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:222
+msgid ""
+"Limit results to attendees whose ticket is provided by one of the providers "
+"specified in the CSV list or array; defaults to all the available."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:235
+msgid ""
+"Limit results to attendees containing the specified string in the title or "
+"description."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:241
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:260
+msgid "Offset the results by a specific number of items."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:247
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:266
+msgid "Sort results in ASC or DESC order. Defaults to ASC."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:256
+msgid ""
+"Order the results by one of date, relevance, id, include, title or slug. "
+"Defaults to id."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:268
+msgid "Limit results to attendees by post the ticket is associated with."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:274
+msgid "Limit results to attendees associated with a ticket."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:280
+msgid ""
+"Limit results to attendees created after or on the specified UTC date or "
+"timestamp."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:286
+msgid ""
+"Limit results to attendees created before or on the specified UTC date or "
+"timestamp."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:292
+msgid "Limit results to a specific CSV list or array of attendee IDs."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:305
+msgid "Exclude a specific CSV list or array of attendee IDs from the results."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:318
+msgid ""
+"Limit results to attendees that paid tickets a price equal or below the "
+"specified value; if not specified no maximum price limit will be used."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:324
+msgid ""
+"Limit results to attendees that paid tickets a price equal or above the "
+"specified value; if not specified no minimum price limit will be used."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:330
+msgid ""
+"Limit results to attendees whose ticket is assigned to one of the posts "
+"specified in the CSV list or array."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:343
+msgid ""
+"Limit results to attendees whose tickets is not assigned to any of the posts "
+"specified in the CSV list or array.."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:356
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:314
+msgid "Limit results to a specific CSV list or array of ticket IDs."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:368
+msgid "Exclude a specific CSV list or array of ticket IDs."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:380
+msgid ""
+"Limit results to attendees for posts that are in one of the post statuses "
+"specified in the CSV list or array; defaults to publish."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:391
+msgid ""
+"Limit results to attendees that are in one of post statuses specified in the "
+"CSV list or array; defaults to publish."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:402
+msgid ""
+"Limit results to attendees whose order status is in one of post statuses "
+"specified in the CSV list or array; defaults to public."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:413
+msgid "Limit results to attendees that are or not checked-in."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:418
+msgid ""
+"Limit results to RSVP Attendees that have one of the RSVP Going status "
+"specified in the CSV list or array."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Attendee_Archive.php:429
+msgid ""
+"Limit results to attendees for tickets that provide attendees the "
+"possibility to fill in additional information or not; requires ET+."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Base.php:77
+msgid "No description provided"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:36
+msgid "Returns the list of tickets in the cart"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:44
+#: src/Tribe/REST/V1/Endpoints/Cart.php:81
+msgid "The list of tickets and their quantities in the cart"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:48
+#: src/Tribe/REST/V1/Endpoints/Cart.php:85
+msgid "The list of meta for each ticket item in the cart"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:52
+#: src/Tribe/REST/V1/Endpoints/Cart.php:89
+msgid "The provider cart URL"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:56
+#: src/Tribe/REST/V1/Endpoints/Cart.php:93
+msgid "The provider checkout URL"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:64
+#: src/Tribe/REST/V1/Endpoints/Cart.php:111
+msgid "The post does not have any tickets"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:73
+msgid "Returns the updated list of tickets in the cart and cart details"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:101
+msgid "The post ID is invalid."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:177
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:291
+msgid ""
+"Limit results to tickets provided by one of the providers specified in the "
+"CSV list or array; defaults to all available."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:199
+#: src/Tribe/REST/V1/Endpoints/Cart.php:282
+msgid "The post ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:265
+msgid "The cart provider"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:271
+msgid "List of tickets with their ID and quantity"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Cart.php:277
+msgid "List of meta for each ticket to be saved for Attendee Registration"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Attendee.php:19
+msgid "Returns the data of the attendee with the specified post ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Attendee.php:29
+msgid "The attendee post ID is invalid."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Attendee.php:39
+msgid "The attendee with the specified ID is not accessible."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Attendee.php:49
+msgid "An attendee with the specified ID does not exist."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Attendee.php:71
+msgid "The attendee post ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Ticket.php:16
+msgid "Returns a single ticket data"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Ticket.php:20
+msgid "Returns the data of the ticket with the specified post ID"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Ticket.php:30
+msgid "The ticket post ID is invalid."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Ticket.php:40
+msgid "The ticket with the specified ID is not accessible."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Single_Ticket.php:50
+msgid "A ticket with the specified ID does not exist."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Swagger_Documentation.php:108
+msgid "Event Tickets REST API"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Swagger_Documentation.php:109
+msgid ""
+"Event Tickets REST API allows accessing ticket information easily and "
+"conveniently."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Swagger_Documentation.php:160
+msgid ""
+"Returns the documentation for Event Tickets REST API in Swagger consumable "
+"format."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:26
+msgid "Returns all the tickets matching the search criteria"
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:246
+msgid ""
+"How many tickets to return per results page; defaults to posts_per_page."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:254
+msgid ""
+"Limit results to tickets containing the specified string in the title or "
+"description."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:275
+msgid ""
+"Order the results by one of date, relevance, id, include, title, or slug; "
+"defaults to title."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:286
+msgid ""
+"Limit results to tickets that have or do not have capacity currently "
+"available."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:302
+msgid ""
+"Limit results to tickets created after or on the specified UTC date or "
+"timestamp."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:308
+msgid ""
+"Limit results to tickets created before or on the specified UTC date or "
+"timestamp."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:327
+msgid "Exclude a specific CSV list or array of ticket IDs from the results."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:340
+msgid ""
+"Limit results to tickets that are assigned to one of the posts specified in "
+"the CSV list or array."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:353
+msgid ""
+"Limit results to tickets that are not assigned to any of the posts specified "
+"in the CSV list or array."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:366
+msgid "Limit results to tickets that have at least this number or attendees."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:372
+msgid "Limit results to tickets that have at most this number of attendees."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:378
+msgid ""
+"Limit results to tickets that have at most this number of checked-in "
+"attendee."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:384
+msgid ""
+"Limit results to tickets that have at least this number of checked-in "
+"attendees."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:390
+msgid "Limit results to tickets that have at least this capacity."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:396
+msgid "Limit results to tickets that have at most this capacity."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:402
+msgid ""
+"Limit results to tickets that will be available at or after the specified "
+"UTC date (parseable by strtotime) or timestamp."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:408
+msgid ""
+"Limit results to tickets that will be available up to the specified UTC date "
+"(parseable by strtotime) or timestamp."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:414
+msgid ""
+"Limit results to tickets assigned to posts that are in one of the post "
+"statuses specified in the CSV list or array; defaults to publish."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:425
+msgid ""
+"Limit results to tickets that are in one of post statuses specified in the "
+"CSV list or array; defaults to publish."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:436
+msgid ""
+"Limit results to tickets priced in one of the 3-letter currency codes "
+"specified in the CSV list or array."
+msgstr ""
+
+#: src/Tribe/REST/V1/Endpoints/Ticket_Archive.php:446
+msgid ""
+"Limit results to tickets that provide attendees the possibility to fill in "
+"additional information or not; requires ET+."
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:19
+msgid "The attendee ID is missing from the request"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:20
+msgid "The requested post ID does not exist or is not an attendee"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:21
+msgid "The requested attendee is not accessible"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:22
+msgid "The requested attendee check in is not available"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:23
+msgid "The requested ticket post could not be found"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:24
+msgid "The ticket provider for the requested ticket is not available"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:25
+msgid "The post associated with the requested ticket was not found"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:26
+msgid "The requested ticket object could not be built or found"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:27
+msgid "The requested ticket is not accessible"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:28
+msgid "The ticket global id could not be generated"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:29
+msgid "The ticket #%d does not exist."
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:30
+msgid "The ticket \"%s\" does not have that many available for purchase."
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:31
+msgid "Webhook not processed."
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:33
+msgid "There was a problem while fetching the requested ticket post"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:34
+msgid "There was a problem while fetching the requested attendee post"
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:36
+msgid "The page number requested is larger than the number of pages available."
+msgstr ""
+
+#: src/Tribe/REST/V1/Messages.php:37
+msgid "Event Tickets Plus must be loaded to get Attendee data."
+msgstr ""
+
+#: src/Tribe/REST/V1/Post_Repository.php:168
+msgid "An error happened while building the response: "
+msgstr ""
+
+#: src/Tribe/RSVP/Attendance_Totals.php:50
+msgctxt "attendee summary"
+msgid "Going:"
+msgstr ""
+
+#: src/Tribe/RSVP/Attendance_Totals.php:51
+msgctxt "attendee summary"
+msgid "Not Going:"
+msgstr ""
+
+#: src/Tribe/RSVP/Status/Going.php:31
+msgid "Going"
+msgstr ""
+
+#: src/Tribe/RSVP/Status/Not_Going.php:25
+msgid "Not going"
+msgstr ""
+
+#: src/Tribe/RSVP.php:487
+msgid "Your RSVP was unsuccessful, please try again."
+msgstr ""
+
+#: src/Tribe/RSVP.php:524
+msgid "Unable to verify your opt-in request, please try again."
+msgstr ""
+
+#: src/Tribe/RSVP.php:627
+msgctxt "Attendee number"
+msgid "Attendee %1$s"
+msgstr ""
+
+#: src/Tribe/RSVP.php:665
+msgid "RSVP Tickets"
+msgstr ""
+
+#: src/Tribe/RSVP.php:666
+msgid "RSVP Ticket"
+msgstr ""
+
+#. translators: %s is the attendee field name.
+#: src/Tribe/RSVP.php:779
+msgid "Attendee field \"%s\" is not set."
+msgstr ""
+
+#. translators: %s is the attendee field name.
+#: src/Tribe/RSVP.php:785
+msgid "Attendee field \"%s\" is empty."
+msgstr ""
+
+#: src/Tribe/RSVP.php:823
+msgid "Unable to process your request, invalid content resource."
+msgstr ""
+
+#: src/Tribe/RSVP.php:873
+msgid "Unable to process your request, attendee creation failed."
+msgstr ""
+
+#: src/Tribe/RSVP.php:1274
+msgid "Your %1$s from %2$s"
+msgstr ""
+
+#: src/Tribe/RSVP.php:1380
+msgid "You confirmed you will not be attending %s"
+msgstr ""
+
+#: src/Tribe/RSVP.php:1723
+msgid ""
+"Your %1$s has been received! Check your email for your %1$s confirmation."
+msgstr ""
+
+#: src/Tribe/RSVP.php:1730
+msgid "You can't %1$s more than the total remaining %2$s."
+msgstr ""
+
+#: src/Tribe/RSVP.php:1738
+msgid "In order to %s, you must enter your name and a valid email address."
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:169
+msgid "Sold"
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:176
+msgid "SKU"
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:217
+#: src/views/blocks/tickets/extra-available-quantity.php:31
+msgid "available"
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:224
+msgid "pending order completion"
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:246
+msgid "Sold counts tickets from completed orders only."
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:266
+msgid "Total Sales counts %s from all completed orders."
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:282
+msgid ""
+"Total Ordered counts tickets from orders of any status, including pending "
+"and refunded."
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:330
+msgid "Inventory"
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:331
+msgid "Stock"
+msgstr ""
+
+#: src/Tribe/Status/Abstract_Commerce.php:332
+#: src/admin-views/editor/list-table.php:38
+msgid "Capacity"
+msgstr ""
+
+#: src/Tribe/Tickets.php:471
+msgctxt "delete link"
+msgid "Delete %s"
+msgstr ""
+
+#: src/Tribe/Tickets.php:553
+msgid "Move %s"
+msgstr ""
+
+#: src/Tribe/Tickets.php:1756
+msgid "Shared capacity with other tickets"
+msgstr ""
+
+#: src/Tribe/Tickets.php:1757
+msgid "Set capacity for this ticket only"
+msgstr ""
+
+#. translators: %1$s: The singular of "RSVP" or "ticket", %2$s: The plural of
+#. "RSVPs" or "tickets", %3$s: The site name.
+#: src/Tribe/Tickets.php:2374
+msgctxt "The default RSVP/ticket email subject"
+msgid "Your %1$s from %3$s"
+msgid_plural "Your %2$s from %3$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Tribe/Tickets.php:3098
+msgid "%s are not available as this %s has passed."
+msgstr ""
+
+#: src/Tribe/Tickets.php:3134
+msgid "%s will be available on "
+msgstr ""
+
+#: src/Tribe/Tickets.php:3140
+msgid " at "
+msgstr ""
+
+#. translators: %s: Tickets label
+#: src/Tribe/Tickets.php:3143 src/views/blocks/tickets/content-inactive.php:19
+#: src/views/v2/tickets/item/content/inactive.php:53
+#: src/views/v2/tickets/item/inactive.php:63
+msgid "%s are not yet available"
+msgstr ""
+
+#: src/Tribe/Tickets.php:3146
+msgid "%s are no longer available."
+msgstr ""
+
+#: src/Tribe/Tickets.php:3148
+msgid "There are no %s available at this time."
+msgstr ""
+
+#: src/Tribe/Tickets_Handler.php:86
+#: src/views/blocks/tickets/extra-available-unlimited.php:19
+#: src/views/v2/tickets/item/extra/available/unlimited.php:56
+msgid "Unlimited"
+msgstr ""
+
+#: src/Tribe/Tickets_View.php:844 src/views/blocks/attendees/view-link.php:68
+#: src/views/tickets/view-link.php:84
+msgctxt "separator if there are both RSVPs and Tickets"
+msgid " and "
+msgstr ""
+
+#: src/Tribe/Tickets_View.php:904
+msgid "This %s is no longer active."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:27
+msgid "The Events Calendar product suite logo"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:29
+msgctxt "short expression of excitement"
+msgid "WOOHOO!"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:29
+msgid "You're the proud owner of Event Tickets Plus! Let's get started…"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:38
+#: src/admin-views/admin-welcome-message.php:44
+msgid "Shapes and lines for visual interest"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:51
+msgid "Event Tickets logo"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:64
+msgid ""
+"Thanks for installing Event Tickets Plus! Here are some handy resources for "
+"getting started with our plugins."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:66
+msgid ""
+"Thanks for installing Event Tickets! Here are some handy resources for "
+"getting started with our plugins."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:72
+msgid "Quick Links:"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:76
+#: src/admin-views/admin-welcome-message.php:86
+#: src/admin-views/admin-welcome-message.php:96
+#: src/admin-views/admin-welcome-message.php:106
+msgid "Configure Settings"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:79
+#: src/admin-views/admin-welcome-message.php:89
+msgid "Install WooCommerce"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:82
+msgid "Create Ticket"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:92
+#: src/admin-views/admin-welcome-message.php:109
+msgid "Install The Events Calendar"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:99
+msgid "Create RSVP"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:102
+#: src/admin-views/admin-welcome-message.php:112
+msgid "Setup PayPal"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:118
+msgid "Helpful Resources"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:133
+#: src/admin-views/admin-welcome-message.php:186
+#: src/admin-views/admin-welcome-message.php:208
+msgid "Illustration of a book with The Events Calendar logo"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:136
+msgid "New to Event Tickets? Here's everything you need to get started."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:137
+msgid "Check out the guide"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:143
+msgid "Illustration of a thought lightbulb coming from a book"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:145
+msgid "Knowledgebase"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:146
+msgid ""
+"Ready to dig deeper? Our Knowledgebase can help you get the most out of The "
+"Events Calendar suite."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:147
+msgid "Dig deeper"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:153
+msgid "Illustration of characters being translated"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:155
+msgid "Translations"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:156
+msgid "Need a language other than English? We've got you covered here."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:157
+#: src/admin-views/admin-welcome-message.php:179
+#: src/admin-views/admin-welcome-message.php:199
+msgid "Learn more"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:164
+msgid "Illustration of a phone screen with a person's face"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:166
+msgid "Virtual Event Resources"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:167
+msgid ""
+"Tips and tools to help with planning online events, webinars, and more on "
+"WordPress and beyond."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:168
+msgid "Get started with online events"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:176
+msgid "Illustration of a power plug and gears"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:178
+msgid "Browse our library of free extensions for Event Tickets."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:188
+#: src/admin-views/admin-welcome-message.php:210
+msgid "Want to take your events to the next level?"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:189
+#: src/admin-views/admin-welcome-message.php:211
+msgid "Check out our suite of add-ons"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:196
+msgid "Illustration of a calendar"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:198
+msgid "Add The Events Calendar (it's free!) to enhance Event Tickets."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:218
+msgid "Illustration of a hand holding a ticket and the WooCommerce logo"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:220
+msgid "Add WooCommerce integration, advanced registration, and more."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:221
+msgid "Check out Event Tickets Plus"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:226
+msgid "Want this emailed to you?"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:227
+msgid ""
+"Keep this list of links on hand and stay subscribed to receive tips and "
+"tricks about The Events Calendar products."
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:230
+msgid "Your email"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:232
+msgid "Sign Up"
+msgstr ""
+
+#: src/admin-views/admin-welcome-message.php:245
+msgid "The Events Calendar brand logo"
+msgstr ""
+
+#: src/admin-views/attendees-email.php:6
+msgid "Select..."
+msgstr ""
+
+#: src/admin-views/attendees-email.php:27
+msgid "Send the attendee list by email"
+msgstr ""
+
+#: src/admin-views/attendees-email.php:33
+msgid "Select a User:"
+msgstr ""
+
+#: src/admin-views/attendees-email.php:36
+#: src/views/modal/registration-js.php:129
+msgid "or"
+msgstr ""
+
+#: src/admin-views/attendees-email.php:38
+msgid "Email Address:"
+msgstr ""
+
+#: src/admin-views/attendees-email.php:59
+msgid "Send Email"
+msgstr ""
+
+#: src/admin-views/attendees-table/check-in-button.php:23
+msgid "Check In"
+msgstr ""
+
+#: src/admin-views/attendees-table/check-in-button.php:31
+msgid "Undo Check In"
+msgstr ""
+
+#: src/admin-views/attendees.php:71
+msgctxt "attendee screen summary"
+msgid "%s Details"
+msgstr ""
+
+#: src/admin-views/attendees.php:113
+msgctxt "attendee screen summary"
+msgid "Overview"
+msgstr ""
+
+#: src/admin-views/attendees.php:173
+msgid "Search attendees"
+msgstr ""
+
+#: src/admin-views/commerce/gateways/paypal/signup-link.php:25
+msgid "Connect Automatically with <i>PayPal</i>"
+msgstr ""
+
+#: src/admin-views/commerce/metabox/capacity.php:16
+#: src/admin-views/editor/list-row.php:99
+#: src/admin-views/rsvp-metabox-capacity.php:10
+#: src/admin-views/tpp-metabox-capacity.php:16
+msgid "Capacity:"
+msgstr ""
+
+#: src/admin-views/commerce/metabox/capacity.php:25
+#: src/admin-views/rsvp-metabox-capacity.php:19
+#: src/admin-views/tpp-metabox-capacity.php:25
+msgid "Leave blank for unlimited"
+msgstr ""
+
+#: src/admin-views/commerce/metabox/sku.php:23
+#: src/admin-views/tpp-metabox-sku.php:20
+msgid "SKU:"
+msgstr ""
+
+#: src/admin-views/commerce/metabox/sku.php:36
+#: src/admin-views/tpp-metabox-sku.php:33
+msgid "A unique identifying code for each %s type you're selling"
+msgstr ""
+
+#: src/admin-views/editor/button-view-orders.php:46
+msgid "View Orders"
+msgstr ""
+
+#: src/admin-views/editor/column-body-price.php:9
+#: src/admin-views/editor/fieldset/price.php:74
+#: src/admin-views/legacy-ticket-fields.php:15
+#: src/admin-views/price-fields.php:3
+msgid "Price:"
+msgstr ""
+
+#: src/admin-views/editor/column-head-price.php:1
+#: src/views/registration/summary/tickets-header.php:19
+msgid "Price"
+msgstr ""
+
+#: src/admin-views/editor/fieldset/advanced.php:22
+msgid "Advanced"
+msgstr ""
+
+#: src/admin-views/editor/fieldset/advanced.php:25
+msgid "Advanced Settings"
+msgstr ""
+
+#: src/admin-views/editor/fieldset/history.php:30
+msgid "History"
+msgstr ""
+
+#: src/admin-views/editor/fieldset/history.php:33
+msgid "Ti"
+msgstr ""
+
+#. Translators: %s: singular version of the Ticket label.
+#: src/admin-views/editor/fieldset/price.php:9
+msgctxt "ticket price validation error"
+msgid "%s price must be greater than zero."
+msgstr ""
+
+#: src/admin-views/editor/fieldset/price.php:27
+msgctxt "price description"
+msgid "Leave blank for free %s"
+msgstr ""
+
+#: src/admin-views/editor/fieldset/price.php:109
+#: src/admin-views/legacy-ticket-fields.php:24
+#: src/admin-views/price-fields.php:12
+msgid "Sale Price:"
+msgstr ""
+
+#: src/admin-views/editor/fieldset/price.php:110
+msgid "Current sale price. This can be managed via the product editor."
+msgstr ""
+
+#: src/admin-views/editor/fieldset/price.php:113
+msgid "Sale/Member Price:"
+msgstr ""
+
+#: src/admin-views/editor/fieldset/price.php:114
+msgid ""
+"Current sale or member price. This can be managed via the product editor."
+msgstr ""
+
+#: src/admin-views/editor/fieldset/settings-provider.php:36
+msgid "Sell %s using:"
+msgstr ""
+
+#: src/admin-views/editor/fieldset/settings-provider.php:43
+msgid ""
+"It looks like you have multiple ecommerce plugins active. We recommend "
+"running only one at a time. However, if you need to run multiple, please "
+"select which one to use to sell %s for this event."
+msgstr ""
+
+#: src/admin-views/editor/fieldset/settings-provider.php:49
+msgid ""
+"Note: adjusting this setting will only impact new %1$s. Existing %1$s will "
+"not change. We highly recommend that all %1$s for one event use the same "
+"ecommerce plugin."
+msgstr ""
+
+#: src/admin-views/editor/list-row.php:43
+msgctxt "ticket type label"
+msgid "%s Type:"
+msgstr ""
+
+#: src/admin-views/editor/list-row.php:104
+msgid "Available:"
+msgstr ""
+
+#: src/admin-views/editor/list-row.php:116
+msgctxt "ticket ID title attribute"
+msgid "Edit %s ID: %d"
+msgstr ""
+
+#: src/admin-views/editor/list-row.php:128
+msgctxt "ticket ID title attribute"
+msgid "Delete %s ID: %d"
+msgstr ""
+
+#: src/admin-views/editor/list-table.php:39
+msgid "Available"
+msgstr ""
+
+#: src/admin-views/editor/panel/list.php:13
+msgid "Add a new ticket"
+msgstr ""
+
+#: src/admin-views/editor/panel/list.php:14
+msgid "No commerce providers available"
+msgstr ""
+
+#: src/admin-views/editor/panel/list.php:20
+msgid "You have unsaved changes to your tickets. Discard those changes?"
+msgstr ""
+
+#: src/admin-views/editor/panel/list.php:48
+msgid "View Attendees"
+msgstr ""
+
+#: src/admin-views/editor/panel/list.php:79
+msgctxt "admin editor panel list button label"
+msgid "New %s"
+msgstr ""
+
+#: src/admin-views/editor/panel/list.php:88
+msgctxt "RSVP form toggle button label"
+msgid "Add a new %s"
+msgstr ""
+
+#: src/admin-views/editor/panel/list.php:93
+msgctxt "RSVP form toggle button text"
+msgid "New %s"
+msgstr ""
+
+#: src/admin-views/editor/panel/list.php:101
+msgid "Settings"
+msgstr ""
+
+#: src/admin-views/editor/panel/settings.php:20
+msgctxt "meta box ticket form heading"
+msgid "%s Settings"
+msgstr ""
+
+#: src/admin-views/editor/panel/settings.php:58
+msgctxt "ticket image upload label"
+msgid "%s header image:"
+msgstr ""
+
+#: src/admin-views/editor/panel/settings.php:67
+msgctxt "ticket image upload label description"
+msgid ""
+"Select an image from your Media Library to display on emailed %s. For best "
+"results, use a .jpg, .png, or .gif at least 1160px wide."
+msgstr ""
+
+#: src/admin-views/editor/panel/settings.php:82 src/admin-views/meta-box.php:63
+msgid "Select an Image"
+msgstr ""
+
+#: src/admin-views/editor/panel/settings.php:98 src/admin-views/meta-box.php:71
+msgid "Remove"
+msgstr ""
+
+#: src/admin-views/editor/panel/settings.php:111
+msgid "Save settings"
+msgstr ""
+
+#: src/admin-views/editor/panel/settings.php:112
+#: src/admin-views/editor/panel/ticket.php:514 src/admin-views/meta-box.php:304
+#: src/views/v2/rsvp/ari/form/buttons.php:22
+#: src/views/v2/rsvp/form/fields/cancel.php:23
+msgid "Cancel"
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:55
+msgid "Start sale date cannot be empty."
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:56
+msgid "Start sale date cannot be greater than End Sale date"
+msgstr ""
+
+#. Translators: %s: dynamic 'RSVP' text.
+#: src/admin-views/editor/panel/ticket.php:66
+msgctxt "admin edit ticket panel error"
+msgid "%s type is a required field"
+msgstr ""
+
+#. Translators: %s: dynamic 'Ticket' text.
+#: src/admin-views/editor/panel/ticket.php:76
+msgctxt "input start time ARIA label"
+msgid "%s start date"
+msgstr ""
+
+#. Translators: %s: dynamic 'tickets' text.
+#: src/admin-views/editor/panel/ticket.php:86
+msgctxt "input start time help text title"
+msgid "If you do not set a start sale date, %s will be available immediately."
+msgstr ""
+
+#. Translators: %s: dynamic 'Ticket' text.
+#: src/admin-views/editor/panel/ticket.php:96
+msgctxt "input end time ARIA label"
+msgid "%s end date"
+msgstr ""
+
+#. Translators: %s: dynamic 'tickets' text.
+#: src/admin-views/editor/panel/ticket.php:106
+msgctxt "input end time help text title"
+msgid ""
+"If you do not set an end sale date, %s will be available until the event "
+"begins."
+msgstr ""
+
+#. Translators: %s: dynamic 'tickets' text.
+#: src/admin-views/editor/panel/ticket.php:116
+msgctxt "input end time help text title"
+msgid "If you do not set an end sale date, %s will be available forever."
+msgstr ""
+
+#. Translators: %s: dynamic 'tickets' text.
+#: src/admin-views/editor/panel/ticket.php:126
+msgctxt "meta box ticket form button text"
+msgid "Save %s"
+msgstr ""
+
+#. Translators: %s: dynamic 'RSVP' text.
+#: src/admin-views/editor/panel/ticket.php:136
+msgctxt "RSVP form save value"
+msgid "Save %s"
+msgstr ""
+
+#. Translators: %s: dynamic 'ticket' text.
+#. Translators: %s: dynamic 'RSVP' text.
+#: src/admin-views/editor/panel/ticket.php:175
+#: src/admin-views/editor/panel/ticket.php:220
+msgctxt "admin add new ticket panel heading"
+msgid "Add new %s"
+msgstr ""
+
+#. Translators: %s: dynamic 'ticket' text.
+#. Translators: %s: dynamic 'RSVP' text.
+#: src/admin-views/editor/panel/ticket.php:195
+#: src/admin-views/editor/panel/ticket.php:240
+msgctxt "admin edit ticket panel heading"
+msgid "Edit %s"
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:253
+msgid "Type:"
+msgstr ""
+
+#. Translators: %1$s: dynamic 'ticket' text.
+#: src/admin-views/editor/panel/ticket.php:272
+msgctxt "admin edit ticket panel note"
+msgid ""
+"This is the name of your %1$s. It is displayed on the frontend of your "
+"website and within %1$s emails."
+msgstr ""
+
+#. Translators: %1$s: dynamic 'RSVP' text.
+#: src/admin-views/editor/panel/ticket.php:290
+msgctxt "admin edit RSVP panel note"
+msgid ""
+"This is the name of your %1$s. It is displayed on the frontend of your "
+"website and within %1$s emails."
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:302
+msgid "Description:"
+msgstr ""
+
+#. Translators: %s: dynamic 'tickets' text.
+#: src/admin-views/editor/panel/ticket.php:324
+msgctxt "default ticket provider"
+msgid "Show description on frontend %s form."
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:337 src/admin-views/meta-box.php:225
+msgid "Start sale:"
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:350
+#: src/admin-views/editor/panel/ticket.php:380
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:351
+#: src/admin-views/editor/panel/ticket.php:381
+msgid "at"
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:364
+#: src/admin-views/editor/panel/ticket.php:394
+msgid "HH:MM"
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:370 src/admin-views/meta-box.php:256
+msgid "End sale:"
+msgstr ""
+
+#: src/admin-views/editor/panel/ticket.php:410 src/admin-views/meta-box.php:167
+msgid "Sell using:"
+msgstr ""
+
+#: src/admin-views/legacy-ticket-fields.php:19
+#: src/admin-views/price-fields.php:7
+msgid "(0 or empty for free tickets)"
+msgstr ""
+
+#: src/admin-views/legacy-ticket-fields.php:28
+#: src/admin-views/price-fields.php:16
+msgid "(Current sale price - this can be managed via the product editor)"
+msgstr ""
+
+#: src/admin-views/list.php:31
+msgid "Edit"
+msgstr ""
+
+#: src/admin-views/list.php:45
+msgid "View"
+msgstr ""
+
+#: src/admin-views/list.php:50
+msgid "Edit in %s"
+msgstr ""
+
+#: src/admin-views/list.php:70
+msgid "Move"
+msgstr ""
+
+#: src/admin-views/meta-box.php:34
+msgctxt "meta box ticket form CE warning"
+msgid ""
+"This event was created using Community Events. Are you sure you want to sell "
+"%s for it?"
+msgstr ""
+
+#: src/admin-views/meta-box.php:52
+msgctxt "meta box ticket form image"
+msgid "Upload image for the %s header."
+msgstr ""
+
+#: src/admin-views/meta-box.php:60
+msgid ""
+"The maximum image size in the email will be 580px wide by any height, and "
+"then scaled for mobile. If you would like \"retina\" support use an image "
+"sized to 1160px wide."
+msgstr ""
+
+#: src/admin-views/meta-box.php:86
+msgid "Enable global stock"
+msgstr ""
+
+#: src/admin-views/meta-box.php:96
+msgid "Global stock level"
+msgstr ""
+
+#: src/admin-views/meta-box.php:105
+msgid "(%s sold)"
+msgid_plural "(%s sold)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/admin-views/meta-box.php:143
+msgctxt "meta box ticket form toggle"
+msgid "Add new %s"
+msgstr ""
+
+#: src/admin-views/meta-box.php:161
+msgid "Add new ticket"
+msgstr ""
+
+#: src/admin-views/meta-box.php:162
+msgid "Edit ticket"
+msgstr ""
+
+#: src/admin-views/meta-box.php:188
+msgctxt "meta box ticket form"
+msgid "%s Name:"
+msgstr ""
+
+#: src/admin-views/meta-box.php:208
+msgctxt "meta box ticket form"
+msgid "%s Description:"
+msgstr ""
+
+#: src/admin-views/meta-box.php:279
+msgid "When will ticket sales occur?"
+msgstr ""
+
+#: src/admin-views/meta-box.php:283
+msgid ""
+"If you don't set a start/end date for sales, tickets will be available from "
+"now until the event ends."
+msgstr ""
+
+#: src/admin-views/meta-box.php:303
+msgctxt "meta box form save button"
+msgid "Save this %s"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:19
+msgid "No attendees specified! Please try again."
+msgstr ""
+
+#: src/admin-views/move-tickets.php:25
+msgid ""
+"You have specified a range of attendees that are managed by different "
+"providers. It is not currently possible to move these together."
+msgstr ""
+
+#: src/admin-views/move-tickets.php:30
+msgid ""
+"You have selected %1$s ticket for %2$s. You can move it to a different "
+"ticket type within the same event, or to a different event."
+msgid_plural ""
+"You have selected %1$s tickets for %2$s. You can move them to a different "
+"ticket type within the same event, or to a different event."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/admin-views/move-tickets.php:43
+msgid "Move to a different ticket type within the same event"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:47
+msgid "Move tickets to a different event"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:54
+msgid "You can optionally focus on a specific post type:"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:59
+msgid ""
+"You can also enter keywords to help find the target event by title or "
+"description:"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:64
+msgid "Select the post you wish to move the ticket type to:"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:72
+msgid "Select the ticket type that the tickets should be transferred to:"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:80
+msgctxt "move tickets dialog"
+msgid "Please be patient while your request is processed&hellip;"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:87
+msgctxt "move tickets dialog"
+msgid "&laquo; Back"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:88
+msgid "Finish!"
+msgstr ""
+
+#: src/admin-views/move-tickets.php:89
+msgctxt "move tickets dialog"
+msgid "Next &raquo;"
+msgstr ""
+
+#: src/admin-views/order-available.php:8
+msgid "Availability for this ticket type is counted using"
+msgstr ""
+
+#: src/admin-views/order-available.php:13
+msgid "Learn more about how Availability is calculated."
+msgstr ""
+
+#: src/admin-views/order-pending-completion.php:7
+msgid ""
+"Pending order completion counts tickets from orders with the following "
+"statuses:"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:25
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:62
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:27
+msgid "Disconnect"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:26
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:28
+msgid "Refresh Access Token"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:27
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:29
+msgid "Refresh User Info"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:28
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:31
+msgid "PayPal Status: Connected"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:29
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:32
+msgid "Connected as: %1$s"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:32
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:35
+msgid "Accept online payments with PayPal!"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:33
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:37
+msgid ""
+"Start selling tickets to your events today with PayPal. Attendees can "
+"purchase tickets directly on your site using debt or credit cards with no "
+"additional fees."
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:41
+msgid "Credit and debit card payments"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:42
+msgid "Easy, no API key connection"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:43
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:52
+msgid "Accept payments from around the world"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:44
+msgid "Support 3D Secure Payments"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:57
+msgid "Enable TicketsCommerce"
+msgstr ""
+
+#: src/admin-views/payments/tickets-commerce.php:61
+msgid ""
+"TicketsCommerce allows you to accept payments for tickets with Event Tickets "
+"and Event Tickets Plus. Configure payments through PayPal, allowing users to "
+"pay with credit card or their PayPal account. Learn More about payment "
+"processing with TicketsCommerce."
+msgstr ""
+
+#: src/admin-views/privacy.php:16
+msgid "Hello,"
+msgstr ""
+
+#: src/admin-views/privacy.php:17
+msgid ""
+"This information serves as a guide on what sections need to be modified due "
+"to usage of Event Tickets and its Add-ons."
+msgstr ""
+
+#: src/admin-views/privacy.php:18
+msgid ""
+"You should include the information below in the correct sections of you "
+"privacy policy."
+msgstr ""
+
+#: src/admin-views/privacy.php:19
+msgid "Disclaimer:"
+msgstr ""
+
+#: src/admin-views/privacy.php:19
+msgid ""
+"This information is only for guidance and not to be considered as legal "
+"advice."
+msgstr ""
+
+#: src/admin-views/privacy.php:21
+msgid "What personal data we collect and why we collect it"
+msgstr ""
+
+#: src/admin-views/privacy.php:23
+msgid "Event, Attendee, and Ticket Purchaser Information"
+msgstr ""
+
+#: src/admin-views/privacy.php:25
+msgid ""
+"Through the usage of Event Tickets, Event Tickets Plus, and Community "
+"Tickets, information may be collected and stored within your website’s "
+"database."
+msgstr ""
+
+#: src/admin-views/privacy.php:26 src/admin-views/privacy.php:84
+msgid "Suggested text:"
+msgstr ""
+
+#: src/admin-views/privacy.php:29
+msgid ""
+"If you create, submit, import, save, or publish event %1$s information, as "
+"well as obtain %2$s or purchase %3$s to events, such information is retained "
+"in the local database:"
+msgstr ""
+
+#: src/admin-views/privacy.php:39
+msgid "Attendees information (%1$s and %2$s): name and email address"
+msgstr ""
+
+#: src/admin-views/privacy.php:46
+msgid ""
+"%1$s information (%2$s and %3$s): name, email address, and %4$s number/SKU "
+"(via check-in page)"
+msgstr ""
+
+#: src/admin-views/privacy.php:56
+msgid "%s purchaser information: name and email address"
+msgstr ""
+
+#: src/admin-views/privacy.php:64
+msgid ""
+"%s purchaser billing address, which is collected through the use of "
+"WooCommerce, Easy Digital Downloads, or PayPal"
+msgstr ""
+
+#: src/admin-views/privacy.php:74
+msgid ""
+"Please note: The website owner can collect nearly any Attendee Information "
+"requested from %s buyers by creating a custom registration form."
+msgstr ""
+
+#: src/admin-views/privacy.php:80
+msgid "API Keys"
+msgstr ""
+
+#: src/admin-views/privacy.php:82
+msgid ""
+"Event Tickets suite offers the use of third-party API keys. The primary "
+"functions are to enhance the features we've built in, some of which use "
+"Google Maps and PayPal. These API keys are not supplied by Modern Tribe."
+msgstr ""
+
+#: src/admin-views/privacy.php:86
+msgid "We make use of certain API keys, in order to provide specific features."
+msgstr ""
+
+#: src/admin-views/privacy.php:88
+msgid ""
+"These API keys may include the following third party services: Google Maps "
+"and PayPal."
+msgstr ""
+
+#: src/admin-views/privacy.php:90
+msgid "How Long You Retain this Data"
+msgstr ""
+
+#: src/admin-views/privacy.php:92
+msgid ""
+"All information (data) is retained in the local database indefinitely, "
+"unless otherwise deleted."
+msgstr ""
+
+#: src/admin-views/privacy.php:94
+msgid ""
+"Certain data may be exported or removed upon users request via the existing "
+"Exporter or Eraser. Please note, however, that several \"edge cases\" exist "
+"in which we are unable to perfect the gathering and export of all data for "
+"your end users. We suggest running a search in your local database, as well "
+"as within the WordPress Dashboard, in order to identify all data collected "
+"and stored for your specific user requests."
+msgstr ""
+
+#: src/admin-views/privacy.php:96
+msgid "Where We Send Your Data"
+msgstr ""
+
+#: src/admin-views/privacy.php:98
+msgid ""
+"Modern Tribe does not send any user data outside of your website by default."
+msgstr ""
+
+#: src/admin-views/privacy.php:100
+msgid ""
+"If you have extended our plugin(s) to send data to a third-party service "
+"such as Eventbrite, Google Maps, or PayPal, user information may be passed "
+"to these external services. These services may be located abroad."
+msgstr ""
+
+#: src/admin-views/rsvp-metabox-not-going.php:17
+msgid "Can't Go:"
+msgstr ""
+
+#: src/admin-views/rsvp-metabox-not-going.php:27
+msgid "Enable \"Can't Go\" responses"
+msgstr ""
+
+#: src/admin-views/settings/getting-started.php:13
+msgid ""
+"Thank you for using Event Tickets and Event Tickets Plus! We recommend "
+"looking through the settings below so that you can fine tune your specific "
+"ticketing needs. Here are some resources that can help."
+msgstr ""
+
+#: src/admin-views/settings/getting-started.php:14
+msgid ""
+"Thank you for using Event Tickets! We recommend looking through the settings "
+"below so that you can fine tune your specific ticketing needs. Here are some "
+"resources that can help."
+msgstr ""
+
+#: src/admin-views/settings/getting-started.php:18
+msgid "Getting Started With Tickets"
+msgstr ""
+
+#: src/admin-views/settings/getting-started.php:23
+msgid "Beginner Resources"
+msgstr ""
+
+#: src/admin-views/settings/getting-started.php:35
+msgid "Advanced Plus Features"
+msgstr ""
+
+#: src/admin-views/settings/getting-started.php:38
+msgid "Need To Upgrade?"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal/errors.php:20
+msgid "Warning, your account is not ready to accept payments."
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal/errors.php:22
+msgid ""
+"There is an issue with your PayPal account that is preventing you from being "
+"able to accept payments."
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal/errors.php:30
+msgid "Greetings!"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal/errors.php:31
+msgid ""
+"I am trying to connect my PayPal account to the Event Tickets plugin for "
+"WordPress. I have gone through the onboarding process to connect my account, "
+"but when I finish I'm given the following message from Event Tickets:"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal/errors.php:38
+msgid ""
+"Please help me resolve these account errors so I can begin accepting "
+"payments via PayPal on Event Tickets."
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal/errors.php:44
+msgid "Re-Check Account Status"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:28
+msgid "Connect with PayPal"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:33
+msgid "Sign up for PayPal"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:37
+msgid "Click to get started!"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:42
+msgid "PayPal is currently NOT connected."
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:49
+msgid "Connected"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:55
+msgid "Connected for payments as"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:68
+msgid "APIs Connected:"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/connect-with-paypal.php:71
+msgid "Refunds"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:43
+msgid "PayPal Logo Image"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:46
+msgid "Credit and Debit Card payments"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:49
+msgid "Easy no-API key connection"
+msgstr ""
+
+#: src/admin-views/settings/tickets-commerce/paypal-commerce/introduction.php:55
+msgid "Supports 3D Secure payments"
+msgstr ""
+
+#: src/admin-views/ticket-type-history.php:13
+msgctxt "ticket type history"
+msgid "%s history:"
+msgstr ""
+
+#: src/admin-views/ticket-type-history.php:20
+msgid "Click to view the history"
+msgstr ""
+
+#: src/admin-views/ticket-type-history.php:21
+msgid "Click to hide history"
+msgstr ""
+
+#: src/admin-views/tpp-orders.php:32
+msgid "Orders Report"
+msgstr ""
+
+#: src/admin-views/tpp-orders.php:62
+msgctxt "post type details"
+msgid "%s Details"
+msgstr ""
+
+#: src/admin-views/tpp-orders.php:107
+msgid "Sales by %s Type"
+msgstr ""
+
+#: src/admin-views/tpp-orders.php:132
+msgid "Total %s Sales"
+msgstr ""
+
+#: src/admin-views/tpp-orders.php:150
+msgid "Total %s Ordered"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:13
+msgctxt "about Tribe Commerce"
+msgid ""
+"Tribe Commerce is a light implementation of a commerce gateway using PayPal "
+"and simplified stock handling. If you need more advanced features, take a "
+"look at %1$s. In addition to integrating with your favorite ecommerce "
+"provider, Event Tickets Plus includes options to collect custom information "
+"for attendees, check users in via QR codes, and share stock between %2$s. "
+"%3$s"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:40
+msgid "these instructions"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:41
+msgctxt "tickets fields settings PayPal setup"
+msgid ""
+"In order to use Tribe Commerce to sell %1$s, you must configure your PayPal "
+"account to communicate with your WordPress site. If you need help getting "
+"set up, follow %2$s"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:45
+msgid ""
+"Have you entered this site's address in the Notification URL field in IPN "
+"Settings?"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:47
+msgid "Your site address is: %s"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:55
+msgid "Tribe Commerce"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:63
+msgid "Enable Tribe Commerce "
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:64
+msgid "Check this box if you wish to turn on Tribe Commerce functionality."
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:77
+msgid "Configure PayPal:"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:83
+msgid "PayPal email to receive payments:"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:91
+msgid ""
+"Have you enabled instant payment notifications (IPN) in your PayPal "
+"account's Selling Tools?"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:94
+#: src/admin-views/tribe-commerce-settings.php:106
+msgid "No"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:117
+msgid "PayPal configuration status:"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:120
+msgid ""
+"For help creating and configuring your account, call PayPal at "
+"1-844-720-4038 (USA)"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:129
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:130
+msgid "Enables PayPal Sandbox mode for testing."
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:137
+msgid "The currency that will be used for Tribe Commerce transactions."
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:145
+msgctxt "tickets fields settings paypal stock handling"
+msgid ""
+"When a customer purchases a %s, PayPal might flag the order as Pending. The "
+"order will be Complete once payment is confirmed by PayPal."
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:154
+msgid ""
+"Only decrease available %s stock if an order is confirmed as Completed by "
+"PayPal."
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:165
+msgid ""
+"After a successful PayPal order users will be redirected to this page; use "
+"the %s shortcode to display the order confirmation to the user in the page "
+"content."
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:177
+msgctxt "tickets fields settings paypal confirmation email"
+msgid ""
+"Email address PayPal %s customers will receive confirmation from. Leave "
+"empty to use the default WordPress site email address."
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:209
+msgid ""
+"You can see and manage your IPN Notifications history from the IPN "
+"Notifications settings area (%s)."
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:219
+msgid "IPN Notify URL"
+msgstr ""
+
+#: src/admin-views/tribe-commerce-settings.php:221
+msgid ""
+"Override the default IPN notify URL with this value. This value must be the "
+"same set in PayPal IPN Notifications settings area (%s)."
+msgstr ""
+
+#. Translators: %1$s: dynamic "RSVP" text.
+#: src/admin-views/tribe-options-display.php:28
+msgctxt "title of settings section"
+msgid "%1$s Display Settings"
+msgstr ""
+
+#. Translators: %1$s: dynamic "RSVPs" text.
+#: src/admin-views/tribe-options-display.php:40
+msgctxt "description of settings section"
+msgid "The settings below control the display of your %1$s."
+msgstr ""
+
+#. Translators: %1$s: dynamic "Ticket" text, %2$s: dynamic "RSVP" text.
+#: src/admin-views/tribe-options-display.php:53
+msgctxt "title of settings section"
+msgid "%1$s and %2$s Display Settings"
+msgstr ""
+
+#. Translators: %1$s: dynamic "Tickets" text, %2$s: dynamic "RSVPs" text.
+#: src/admin-views/tribe-options-display.php:66
+msgctxt "description of settings section"
+msgid "The settings below control the display of your %1$s and %2$s."
+msgstr ""
+
+#. Translators: %1$s: dynamic "RSVP" text.
+#: src/admin-views/tribe-options-display.php:95
+msgctxt "settings label"
+msgid "Enable New %1$s Experience"
+msgstr ""
+
+#. Translators: %1$s: dynamic "RSVP" text.
+#: src/admin-views/tribe-options-display.php:106
+msgctxt "settings tooltip"
+msgid ""
+"This setting will render the new front-end designs (styling) and user-flow "
+"for the %1$s experience."
+msgstr ""
+
+#. Translators: %1$s: dynamic "Tickets" text.
+#: src/admin-views/tribe-options-display.php:129
+msgctxt "settings label"
+msgid "Enable Updated %1$s Experience"
+msgstr ""
+
+#. Translators: %1$s: dynamic "Tickets" text, %2$s and %3$s are part of link.
+#: src/admin-views/tribe-options-display.php:140
+msgctxt "settings tooltip"
+msgid ""
+"Enables updated front-end views and Individual Attendee Collection flows for "
+"%1$s. You'll see a new default setting within the Tickets tab and new "
+"individual ticket setting within both Classic and Gutenberg editors "
+"%2$s[Learn more]%3$s."
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:46
+msgctxt "login requirement setting"
+msgid "Require users to log in before they %s"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:47
+msgctxt "login requirement setting"
+msgid "Require users to log in before they purchase %s"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:58
+msgctxt "tickets fields settings title"
+msgid "%s Settings"
+msgstr ""
+
+#. Translators: %s: dynamic "tickets" text.
+#: src/admin-views/tribe-options-tickets.php:65
+msgctxt "tickets fields settings enabled post types"
+msgid "Post types that can have %s"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:89
+msgid "Below the event details [default]"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:90
+msgid "Above the event details"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:91
+msgid "Below the event description"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:92
+msgid "Above the event description"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:98
+#: src/admin-views/tribe-options-tickets.php:107
+msgctxt "form location setting"
+msgid "Location of %s form"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:99
+#: src/admin-views/tribe-options-tickets.php:108
+msgid "This setting only impacts events made with the classic editor."
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:116
+msgctxt "tickets remaining threshold label"
+msgid "Display # %s left threshold"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:117
+msgctxt "tickets remaining threshold tooltip"
+msgid ""
+"If this number is less than the number of %1$s left for sale on your event, "
+"this will prevent the \"# of %1$s left\" text from showing on your website. "
+"You can leave this blank if you would like to always show the text."
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:129
+msgid "Login Requirements"
+msgstr ""
+
+#: src/admin-views/tribe-options-tickets.php:134
+msgctxt "ticket authentication requirements"
+msgid ""
+"You can require that users log into your site before they are able to %1$s "
+"(or buy %2$s). Please review your WordPress Membership option (via the "
+"%3$sGeneral Settings admin screen%4$s) before adjusting this setting."
+msgstr ""
+
+#: src/functions/php-min-version.php:51
+msgctxt "Plugin A \"and\" Plugin B"
+msgid " and "
+msgstr ""
+
+#: src/functions/php-min-version.php:52
+msgctxt "Plugin A\",\" Plugin B"
+msgid ", "
+msgstr ""
+
+#: src/functions/php-min-version.php:64
+msgid "<b>%1$s</b> requires <b>PHP %2$s</b> or higher."
+msgid_plural "<b>%1$s</b> require <b>PHP %2$s</b> or higher."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/functions/php-min-version.php:74
+msgid ""
+"To allow better control over dates, advanced security improvements and "
+"performance gain."
+msgstr ""
+
+#: src/functions/php-min-version.php:76
+msgid ""
+"Contact your Host or your system administrator and ask to upgrade to the "
+"latest version of PHP."
+msgstr ""
+
+#: src/template-tags/tickets.php:223
+msgctxt "list view stock sold out"
+msgid "Sold out"
+msgstr ""
+
+#. Translators: %s number of RSVP spots left.
+#: src/template-tags/tickets.php:266
+msgid "%s spot left"
+msgid_plural "%s spots left"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %s number of tickets left.
+#: src/template-tags/tickets.php:269
+msgid "%s ticket left"
+msgid_plural "%s tickets left"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %s RSVP singular or plural.
+#: src/template-tags/tickets.php:282
+msgctxt "list view rsvp now ticket button"
+msgid "%s Now!"
+msgstr ""
+
+#: src/template-tags/tickets.php:285
+msgctxt "list view buy now ticket button"
+msgid "Buy Now!"
+msgstr ""
+
+#: src/template-tags/tickets.php:526
+msgid "issued"
+msgstr ""
+
+#: src/template-tags/tickets.php:528
+msgctxt "RSVPs going"
+msgid "%s'd going"
+msgstr ""
+
+#. translators: %1$s: formatted quantity remaining
+#: src/template-tags/tickets.php:535
+msgctxt "unlimited remaining stock message"
+msgid "%1$s available"
+msgstr ""
+
+#. translators: %1$s: formatted quantity remaining
+#: src/template-tags/tickets.php:545
+msgctxt "ticket shared capacity message (remaining stock)"
+msgid "%1$s available of shared capacity"
+msgstr ""
+
+#. translators: %1$s: formatted quantity remaining
+#: src/template-tags/tickets.php:556
+msgctxt "ticket stock message (remaining stock)"
+msgid "%1$s available"
+msgstr ""
+
+#: src/template-tags/tickets.php:1348
+msgctxt "singular label for RSVP"
+msgid "RSVP"
+msgstr ""
+
+#: src/template-tags/tickets.php:1372
+msgctxt "lowercase singular label for RSVP"
+msgid "rsvp"
+msgstr ""
+
+#: src/template-tags/tickets.php:1396
+msgctxt "plural label for RSVPs"
+msgid "RSVPs"
+msgstr ""
+
+#: src/template-tags/tickets.php:1420
+msgctxt "lowercase plural label for RSVPs"
+msgid "rsvps"
+msgstr ""
+
+#: src/template-tags/tickets.php:1444
+msgctxt "singular label for Ticket"
+msgid "Ticket"
+msgstr ""
+
+#: src/template-tags/tickets.php:1468
+msgctxt "lowercase singular label for Ticket"
+msgid "ticket"
+msgstr ""
+
+#: src/template-tags/tickets.php:1492
+msgctxt "plural label for Tickets"
+msgid "Tickets"
+msgstr ""
+
+#: src/template-tags/tickets.php:1516
+msgctxt "lowercase plural label for Tickets"
+msgid "tickets"
+msgstr ""
+
+#: src/template-tags/tickets.php:1659
+msgctxt "singular label for Guest"
+msgid "Guest"
+msgstr ""
+
+#: src/template-tags/tickets.php:1683
+msgctxt "lowercase singular label for Guest"
+msgid "guest"
+msgstr ""
+
+#: src/template-tags/tickets.php:1707
+msgctxt "plural label for Guest"
+msgid "Guests"
+msgstr ""
+
+#: src/template-tags/tickets.php:1731
+msgctxt "lowercase plural label for Guest"
+msgid "guests"
+msgstr ""
+
+#: src/views/blocks/attendees/description.php:26
+msgid "One person is attending %2$s"
+msgid_plural "%d people are attending %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/blocks/attendees/view-link.php:40
+#: src/views/tickets/orders-pp-tickets.php:30
+#: src/views/tickets/orders-rsvp.php:28 src/views/tickets/orders.php:92
+#: src/views/tickets/view-link.php:56
+msgctxt "fallback post type singular name"
+msgid "Post"
+msgstr ""
+
+#. Translators: 1: the number one, 2: singular RSVP label.
+#: src/views/blocks/attendees/view-link.php:47
+#: src/views/tickets/view-link.php:63
+msgctxt "RSVP count singular"
+msgid "%1$d %2$s"
+msgstr ""
+
+#. Translators: 1: the plural number of RSVPs, 2: plural RSVP label.
+#: src/views/blocks/attendees/view-link.php:50
+#: src/views/tickets/view-link.php:66
+msgctxt "RSVP count plural"
+msgid "%1$d %2$s"
+msgstr ""
+
+#. Translators: 1: the number one, 2: singular Ticket label.
+#: src/views/blocks/attendees/view-link.php:55
+#: src/views/tickets/view-link.php:71
+msgctxt "Ticket count singular"
+msgid "%1$d %2$s"
+msgstr ""
+
+#. Translators: 1: the plural number of Tickets, 2: plural Ticket label.
+#: src/views/blocks/attendees/view-link.php:58
+#: src/views/tickets/view-link.php:74
+msgctxt "Ticket count plural"
+msgid "%1$d %2$s"
+msgstr ""
+
+#. Translators: 1: number of RSVPs and/or Tickets with accompanying ticket type
+#. text, 2: post type label
+#. Translators: 1: number of RSVPs and/or Tickets with accompanying ticket type
+#. text, 2: post type label.
+#: src/views/blocks/attendees/view-link.php:68
+#: src/views/tickets/view-link.php:84
+msgid "You have %1s for this %2s."
+msgstr ""
+
+#. Translators: %s: The name(s) of the type(s) of ticket(s) the specified user
+#. (optional) has for the specified event.
+#: src/views/blocks/attendees/view-link.php:73
+#: src/views/tickets/view-link.php:92
+msgid "View your %s"
+msgstr ""
+
+#: src/views/blocks/rsvp/content-inactive.php:20
+msgctxt "RSVP block inactive content in the past"
+msgid "%s are no longer available"
+msgstr ""
+
+#: src/views/blocks/rsvp/content-inactive.php:21
+msgctxt "RSVP block inactive content"
+msgid "%s are not yet available"
+msgstr ""
+
+#: src/views/blocks/rsvp/details/availability.php:52
+#: src/views/tickets/rsvp.php:172 src/views/tickets/tpp.php:150
+msgid "Out of stock!"
+msgstr ""
+
+#: src/views/blocks/rsvp/details/availability.php:59
+msgid "remaining"
+msgstr ""
+
+#: src/views/blocks/rsvp/form/error.php:24
+msgid "Please fill in the %s confirmation name and email fields."
+msgstr ""
+
+#: src/views/blocks/rsvp/form/quantity-input.php:42
+#: src/views/blocks/tickets/quantity-number.php:48
+#: src/views/tickets/rsvp.php:149
+#: src/views/v2/rsvp/ari/sidebar/quantity/input.php:36
+#: src/views/v2/tickets/item/quantity/number.php:64
+msgid "Quantity"
+msgstr ""
+
+#: src/views/blocks/rsvp/form/submit-button.php:29
+msgctxt "blocks rsvp form submit button"
+msgid "Submit %s"
+msgstr ""
+
+#: src/views/blocks/rsvp/form/submit-login.php:29
+msgid "Log in to RSVP"
+msgstr ""
+
+#: src/views/blocks/rsvp/messages/success.php:25
+msgctxt "blocks rsvp messages success"
+msgid ""
+"Your %1$s has been received! Check your email for your %1$s confirmation."
+msgstr ""
+
+#: src/views/blocks/rsvp/status/full.php:19
+msgctxt "blocks rsvp status full"
+msgid "%s Full"
+msgstr ""
+
+#: src/views/blocks/rsvp/status/going.php:43
+#: src/views/v2/rsvp/actions/rsvp/going.php:28
+msgctxt "Label for the RSVP going button"
+msgid "Going"
+msgstr ""
+
+#: src/views/blocks/rsvp/status/not-going.php:40
+msgctxt "Label for the RSVP not going button"
+msgid "Not going"
+msgstr ""
+
+#: src/views/blocks/tickets/content-description.php:38
+#: src/views/blocks/tickets/extra.php:57
+#: src/views/v2/tickets/item/content/description-toggle.php:67
+#: src/views/v2/tickets/item/extra/description-toggle.php:68
+msgid "Open the ticket description."
+msgstr ""
+
+#: src/views/blocks/tickets/content-description.php:39
+#: src/views/blocks/tickets/extra.php:58
+#: src/views/v2/tickets/item/content/description-toggle.php:68
+#: src/views/v2/tickets/item/extra/description-toggle.php:70
+msgctxt "Opens the ticket description"
+msgid "More"
+msgstr ""
+
+#: src/views/blocks/tickets/content-description.php:47
+#: src/views/blocks/tickets/extra.php:66
+#: src/views/v2/tickets/item/content/description-toggle.php:76
+#: src/views/v2/tickets/item/extra/description-toggle.php:78
+msgid "Close the ticket description."
+msgstr ""
+
+#: src/views/blocks/tickets/content-description.php:48
+#: src/views/blocks/tickets/extra.php:67
+#: src/views/v2/tickets/item/content/description-toggle.php:77
+#: src/views/v2/tickets/item/extra/description-toggle.php:79
+msgctxt "Closes the ticket description"
+msgid "Less"
+msgstr ""
+
+#. translators: %s: Tickets label
+#: src/views/blocks/tickets/content-inactive.php:19
+#: src/views/v2/tickets/item/content/inactive.php:51
+#: src/views/v2/tickets/item/inactive.php:61
+msgid "%s are no longer available"
+msgstr ""
+
+#: src/views/blocks/tickets/footer-quantity.php:20
+#: src/views/v2/tickets/footer/quantity.php:41
+msgctxt "Total selected tickets count."
+msgid "Quantity:"
+msgstr ""
+
+#: src/views/blocks/tickets/footer-total.php:34
+#: src/views/v2/tickets/footer/total.php:40
+msgctxt "Total selected tickets price."
+msgid "Total:"
+msgstr ""
+
+#: src/views/blocks/tickets/footer.php:39
+#: src/views/tickets/tpp-return-to-cart.php:18
+#: src/views/v2/tickets/footer/return-to-cart.php:76
+msgid "Return to Cart"
+msgstr ""
+
+#. translators: %s: ticket name.
+#: src/views/blocks/tickets/quantity-add.php:26
+#: src/views/v2/tickets/item/quantity/add.php:51
+msgctxt "%s: ticket name."
+msgid "Increase ticket quantity for %s"
+msgstr ""
+
+#: src/views/blocks/tickets/quantity-add.php:36
+#: src/views/v2/tickets/item/quantity/add.php:62
+msgctxt "A plus sign, add ticket."
+msgid "+"
+msgstr ""
+
+#. translators: %s: ticket name.
+#. Translators: %s: ticket name.
+#: src/views/blocks/tickets/quantity-remove.php:26
+#: src/views/v2/tickets/item/quantity/remove.php:51
+msgctxt "Decrease ticket quantity button title"
+msgid "Decrease ticket quantity for %s"
+msgstr ""
+
+#: src/views/blocks/tickets/quantity-remove.php:36
+#: src/views/v2/tickets/item/quantity/remove.php:61
+msgctxt "A minus sign, remove ticket."
+msgid "-"
+msgstr ""
+
+#: src/views/blocks/tickets/quantity-unavailable.php:23
+#: src/views/v2/tickets/item/quantity/unavailable.php:50
+msgctxt "Tickets are sold out."
+msgid "Sold Out"
+msgstr ""
+
+#: src/views/blocks/tickets/registration/attendee/fields/select.php:47
+#: src/views/registration/attendees/fields/select.php:40
+#: src/views/registration-js/attendees/fields/select.php:41
+msgid "Select an option"
+msgstr ""
+
+#: src/views/blocks/tickets/registration/attendee/submit.php:24
+msgctxt "Save attendee meta and proceed to checkout."
+msgid "Save & Checkout"
+msgstr ""
+
+#: src/views/blocks/tickets/registration/summary/description.php:10
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor."
+msgstr ""
+
+#: src/views/blocks/tickets/registration/summary/ticket-quantity.php:19
+msgid "1"
+msgstr ""
+
+#: src/views/blocks/tickets/registration/summary/title.php:26
+msgid "%s Registration"
+msgstr ""
+
+#. translators: %1$s: Event name, %2$s: Tickets label
+#: src/views/blocks/tickets/submit-button-modal.php:24
+msgctxt "Tickets modal title."
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %s: Tickets label
+#: src/views/blocks/tickets/submit-button-modal.php:27
+msgctxt "Get Tickets button."
+msgid "Get %s"
+msgstr ""
+
+#. translators: %s: Tickets label
+#: src/views/blocks/tickets/submit-button.php:59
+#: src/views/v2/tickets/submit/button.php:72
+msgctxt "Add tickets to cart."
+msgid "Get %s"
+msgstr ""
+
+#: src/views/blocks/tickets/submit-login.php:21
+#: src/views/v2/tickets/submit/must-login.php:44
+msgctxt "login required before purchase"
+msgid "Log in to purchase"
+msgstr ""
+
+#: src/views/blocks/tickets.php:97 src/views/v2/tickets/notice.php:48
+msgid ""
+"The numbers below include tickets for this event already in your cart. "
+"Clicking \"Get Tickets\" will allow you to edit any existing attendee "
+"information as well as change ticket quantities."
+msgstr ""
+
+#: src/views/components/loader.php:19
+msgid "Loading..."
+msgstr ""
+
+#: src/views/login-before-purchase.php:21
+msgctxt "Login link on Tribe Commerce checkout page"
+msgid "Log in before purchasing"
+msgstr ""
+
+#: src/views/login-before-purchase.php:23
+msgctxt ""
+"Login link on Tribe Commerce checkout page, shown as an alternative to the "
+"registration link"
+msgid "Log in"
+msgstr ""
+
+#: src/views/login-before-purchase.php:24
+msgctxt ""
+"Registration link on Tribe Commerce checkout page, shown as an alternative "
+"the login link"
+msgid "create an account"
+msgstr ""
+
+#: src/views/login-to-purchase.php:16
+msgid "Log in to purchase"
+msgstr ""
+
+#: src/views/modal/cart.php:58
+msgid "One Moment..."
+msgstr ""
+
+#: src/views/modal/registration-js.php:43 src/views/modal/registration.php:24
+msgid "Attendee Details"
+msgstr ""
+
+#: src/views/modal/registration-js.php:53
+#: src/views/registration-js/content.php:100
+msgctxt ""
+"Note about missing required fields, %s is the html-wrapped number of tickets."
+msgid "You have %s ticket(s) with a field that requires information."
+msgstr ""
+
+#: src/views/modal/registration-js.php:100
+#: src/views/registration-js/content.php:196
+msgctxt ""
+"Note that there are more tickets in the cart, %s is the html-wrapped number."
+msgid ""
+"There are %s other tickets in your cart that do not require attendee "
+"information."
+msgstr ""
+
+#: src/views/modal/registration-js.php:119 src/views/modal/registration.php:36
+#: src/views/registration/content.php:111
+msgid "Save and Checkout"
+msgstr ""
+
+#: src/views/modal/registration-js.php:127
+msgid "Save and View Cart"
+msgstr ""
+
+#: src/views/modal/registration-js.php:135
+msgid "Checkout Now"
+msgstr ""
+
+#: src/views/modal/registration.php:38 src/views/registration/content.php:113
+msgid "Save Attendee Info"
+msgstr ""
+
+#: src/views/registration/attendees/error.php:16
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: src/views/registration/attendees/error.php:19
+msgid "An error occurred while saving, please try again."
+msgstr ""
+
+#: src/views/registration/attendees/fields.php:15
+#: src/views/registration-js/attendees/fields.php:19
+#: src/views/tickets/email.php:452
+msgid "Attendee"
+msgstr ""
+
+#: src/views/registration/attendees/success.php:15
+msgid "Attendee information has been saved."
+msgstr ""
+
+#: src/views/registration/button-cart.php:37
+msgid "Back to cart"
+msgstr ""
+
+#: src/views/registration/button-checkout.php:31
+msgid "Checkout"
+msgstr ""
+
+#: src/views/registration/cart-empty.php:15
+msgid "You currently have no events awaiting registration"
+msgstr ""
+
+#: src/views/registration/cart-empty.php:23
+msgid "the calendar"
+msgstr ""
+
+#: src/views/registration/cart-empty.php:26
+msgid "Find events to attend on %1$s"
+msgstr ""
+
+#: src/views/registration/summary/tickets-header.php:16
+msgid "Ticket summary"
+msgstr ""
+
+#: src/views/registration-js/attendees/fields/birth.php:47
+msgctxt "birthdate field"
+msgid " Month"
+msgstr ""
+
+#: src/views/registration-js/attendees/fields/birth.php:55
+msgid "Month"
+msgstr ""
+
+#: src/views/registration-js/attendees/fields/birth.php:67
+msgctxt "birthdate field"
+msgid " Day"
+msgstr ""
+
+#: src/views/registration-js/attendees/fields/birth.php:75
+msgid "Day"
+msgstr ""
+
+#: src/views/registration-js/attendees/fields/birth.php:87
+msgctxt "birthdate field"
+msgid " Year"
+msgstr ""
+
+#: src/views/registration-js/attendees/fields/birth.php:95
+msgid "Year"
+msgstr ""
+
+#: src/views/registration-js/mini-cart.php:50
+msgctxt "Attendee registration mini-cart/ticket summary title."
+msgid "Ticket Summary"
+msgstr ""
+
+#: src/views/shortcodes/my-attendance-list-logged-out.php:12
+msgid "To see a list of events you're attending, you will need to log in."
+msgstr ""
+
+#: src/views/shortcodes/my-attendance-list.php:40
+msgid "View Tickets"
+msgstr ""
+
+#: src/views/shortcodes/my-attendance-list.php:52
+msgid "You have not indicated your attendance for any upcoming events."
+msgstr ""
+
+#: src/views/tickets/attendees-email.php:22
+msgid "Attendee List"
+msgstr ""
+
+#: src/views/tickets/email-non-attendance.php:39
+#: src/views/tickets/email-ticket-type-moved.php:25
+#: src/views/tickets/email-tickets-moved.php:26 src/views/tickets/email.php:61
+msgid "Your tickets"
+msgstr ""
+
+#: src/views/tickets/email-non-attendance.php:263
+msgid ""
+"Thank you for confirming that you will not be attending the above event."
+msgstr ""
+
+#: src/views/tickets/email-ticket-type-moved.php:97
+#: src/views/tickets/email-tickets-moved.php:99
+msgid "Important changes to your tickets"
+msgstr ""
+
+#: src/views/tickets/email-ticket-type-moved.php:101
+msgid ""
+"We wanted to let you know that your ticket for %2$s has been transferred to "
+"%3$s%4$s. Your ticket remains valid and no further action is needed on your "
+"part."
+msgid_plural ""
+"We wanted to let you know that your %1$s tickets for %2$s have been "
+"transferred to %3$s%4$s. Your existing tickets remain valid and no further "
+"action is needed on your part."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/tickets/email-ticket-type-moved.php:115
+#: src/views/tickets/email-tickets-moved.php:117
+msgid " (taking place on %s)"
+msgstr ""
+
+#: src/views/tickets/email-tickets-moved.php:103
+msgid ""
+"We wanted to let you know that a ticket you purchased for %2$s has been "
+"transferred to %3$s%4$s. Your ticket remains valid and no further action is "
+"needed on your part:"
+msgid_plural ""
+"We wanted to let you know that the following %1$s tickets for %2$s have been "
+"transferred to %3$s%4$s. Your existing tickets remain valid and no further "
+"action is needed on your part:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/views/tickets/email.php:437
+msgid "Ticket #"
+msgstr ""
+
+#: src/views/tickets/email.php:444
+msgctxt "ticket type email heading"
+msgid "%s Type"
+msgstr ""
+
+#: src/views/tickets/email.php:456
+msgid "Security Code"
+msgstr ""
+
+#. Translators: 1: plural RSVP label, 2: post type label.
+#: src/views/tickets/orders-pp-tickets.php:38
+#: src/views/tickets/orders-rsvp.php:37
+msgid "My %1$s for this %2$s"
+msgstr ""
+
+#: src/views/tickets/orders-pp-tickets.php:52
+msgid "Purchased by %1$s (%2$s)"
+msgstr ""
+
+#. Translators: %s: date of RSVP.
+#: src/views/tickets/orders-pp-tickets.php:58
+#: src/views/tickets/orders-rsvp.php:59
+msgid " on %s"
+msgstr ""
+
+#: src/views/tickets/orders-pp-tickets.php:77
+#: src/views/tickets/orders-rsvp.php:78
+msgid "Attendee %d"
+msgstr ""
+
+#: src/views/tickets/orders-pp-tickets.php:82
+msgctxt "order status label"
+msgid "Payment status: "
+msgstr ""
+
+#: src/views/tickets/orders-pp-tickets.php:87
+#: src/views/tickets/orders-rsvp.php:102
+msgid "Type: "
+msgstr ""
+
+#. Translators: 1: attendee name, 2: linked attendee email.
+#: src/views/tickets/orders-rsvp.php:52
+msgid "Reserved by %1$s (%2$s)"
+msgstr ""
+
+#: src/views/tickets/orders-rsvp.php:83
+msgctxt "order status label"
+msgid "RSVP: "
+msgstr ""
+
+#: src/views/tickets/orders.php:76
+msgctxt "notice if user does not have tickets"
+msgid "You don't have %s for this event"
+msgstr ""
+
+#: src/views/tickets/orders.php:81
+msgctxt "notice if user does not have rsvps"
+msgid "You don't have %s for this event"
+msgstr ""
+
+#. Translators: %s: post type label.
+#: src/views/tickets/orders.php:101
+msgid "View %s"
+msgstr ""
+
+#: src/views/tickets/orders.php:160
+msgid "Update %s"
+msgstr ""
+
+#: src/views/tickets/rsvp.php:92
+msgid "Please fill in the RSVP quantity, confirmation name, and email fields."
+msgstr ""
+
+#: src/views/tickets/rsvp.php:165 src/views/tickets/tpp.php:143
+msgid "%1$s available"
+msgstr ""
+
+#: src/views/tickets/rsvp.php:199
+msgid "Send RSVP confirmation to:"
+msgstr ""
+
+#: src/views/tickets/rsvp.php:287
+msgid "Login to RSVP"
+msgstr ""
+
+#: src/views/tickets/rsvp.php:300
+msgctxt "tickets process button text"
+msgid "Confirm %s"
+msgstr ""
+
+#: src/views/tickets/rsvp.php:312 src/views/tickets/tpp.php:211
+msgid ""
+"You must have JavaScript activated to purchase tickets. Please enable "
+"JavaScript in your browser."
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:44
+msgid "No order confirmation is available because no purchase was made."
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:50
+msgid ""
+"Whoops! It looks like there was a problem with your order. Please contact "
+"the site owner for assistance."
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:58
+msgid ""
+"Your order (#%s) is currently processing. Once completed, you'll receive "
+"your ticket(s) in an email."
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:67
+msgid ""
+"Thank you for your purchase! You will receive your receipt and tickets via "
+"email."
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:70
+msgid "Purchaser Name"
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:73
+msgid "Purchaser Email"
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:80
+msgctxt "Success page tickets table header"
+msgid "Price"
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:81
+msgctxt "Success page tickets table header"
+msgid "Quantity"
+msgstr ""
+
+#: src/views/tickets/tpp-success.php:82
+msgctxt "Success page tickets table header"
+msgid "Subtotal"
+msgstr ""
+
+#: src/views/tickets/tpp.php:83
+msgid "Please fill in the ticket confirmation name and email fields."
+msgstr ""
+
+#: src/views/tickets/tpp.php:168
+msgid "Buy now"
+msgstr ""
+
+#. Translators: %1$s: Opening span for "Quantity:" string; %2$s: Closing span
+#. for "Quantity:" string; %3$s: Opening span for the quantity; %4$s: The
+#. quantity; %5$s: Closing span for the quantity.
+#: src/views/v2/commerce/checkout/cart/footer/quantity.php:29
+msgid "%1$sQuantity: %2$s%3$s%4$s%5$s"
+msgstr ""
+
+#. Translators: %1$s: Opening span for "Total:" string; %2$s: Closing span for
+#. "Total:" string; %3$s: Opening span for the total value; %4$s: The total
+#. value; %5$s: Closing span for the total value.
+#: src/views/v2/commerce/checkout/cart/footer/total.php:29
+msgid "%1$sTotal: %2$s%3$s%4$s%5$s"
+msgstr ""
+
+#: src/views/v2/commerce/checkout/cart/item/details/toggle.php:36
+msgid "Open the ticket description in checkout."
+msgstr ""
+
+#: src/views/v2/commerce/checkout/cart/item/details/toggle.php:39
+msgctxt "Opens the ticket description"
+msgid "More info"
+msgstr ""
+
+#: src/views/v2/commerce/checkout/cart/item/details/toggle.php:48
+msgid "Close the ticket description in checkout."
+msgstr ""
+
+#: src/views/v2/commerce/checkout/cart/item/details/toggle.php:51
+msgctxt "Closes the ticket description"
+msgid "Less info"
+msgstr ""
+
+#: src/views/v2/commerce/checkout/header.php:31
+msgid "Purchase Tickets"
+msgstr ""
+
+#: src/views/v2/commerce/checkout/header.php:38
+msgid "modify attendees"
+msgstr ""
+
+#: src/views/v2/commerce/checkout/header.php:42
+msgid "back to event"
+msgstr ""
+
+#: src/views/v2/commerce/checkout/must-login/login.php:32
+msgid "Log in to complete your purchase"
+msgstr ""
+
+#: src/views/v2/commerce/checkout/must-login/registration.php:37
+msgctxt "or <- create a new account"
+msgid "or "
+msgstr ""
+
+#: src/views/v2/commerce/checkout/must-login/registration.php:39
+msgid "create a new account"
+msgstr ""
+
+#: src/views/v2/rsvp/actions/full.php:22
+msgid "RSVP Closed"
+msgstr ""
+
+#: src/views/v2/rsvp/actions/rsvp/not-going.php:43
+msgctxt "Label for the RSVP \"can't go\" version of the not going button"
+msgid "Can't go"
+msgstr ""
+
+#: src/views/v2/rsvp/actions/rsvp.php:22
+msgid "RSVP Here"
+msgstr ""
+
+#: src/views/v2/rsvp/actions/success/title.php:17
+msgid "You are going"
+msgstr ""
+
+#: src/views/v2/rsvp/actions/success/title.php:17
+msgid "Can't go"
+msgstr ""
+
+#. Translators: 1: opening span. 2: Closing span.
+#: src/views/v2/rsvp/actions/success/toggle.php:55
+msgctxt "Toggle for RSVP attendee list."
+msgid "Show me on public %1$sattendee list%2$s"
+msgstr ""
+
+#: src/views/v2/rsvp/actions/success/tooltip.php:26
+msgid ""
+"Enabling this allows your gravatar and name to be present for other "
+"attendees to see."
+msgstr ""
+
+#: src/views/v2/rsvp/ari/form/buttons.php:30
+msgid "Next guest"
+msgstr ""
+
+#: src/views/v2/rsvp/ari/form/buttons.php:38
+#: src/views/v2/rsvp/form/fields/submit.php:23
+msgid "Finish"
+msgstr ""
+
+#: src/views/v2/rsvp/ari/form/error.php:21
+msgid "Please fill in required information before proceeding"
+msgstr ""
+
+#: src/views/v2/rsvp/ari/form/fields/email.php:33
+#: src/views/v2/rsvp/ari/form/fields/name.php:33
+#: src/views/v2/rsvp/form/fields/email.php:34
+#: src/views/v2/rsvp/form/fields/name.php:34
+#: src/views/v2/rsvp/form/fields/quantity.php:25
+msgid "required"
+msgstr ""
+
+#: src/views/v2/rsvp/ari/form/fields/email.php:43
+#: src/views/v2/rsvp/form/fields/email.php:44
+msgid "your@email.com"
+msgstr ""
+
+#: src/views/v2/rsvp/ari/form/fields/name.php:33
+#: src/views/v2/rsvp/form/fields/name.php:34
+msgid "Name"
+msgstr ""
+
+#: src/views/v2/rsvp/ari/form/fields/name.php:43
+#: src/views/v2/rsvp/form/fields/name.php:44
+msgid "Your Name"
+msgstr ""
+
+#. Translators: 1 the guest number.
+#: src/views/v2/rsvp/ari/form/template/title.php:17
+msgctxt "RSVP attendee registration form title"
+msgid "Guest %1$s"
+msgstr ""
+
+#. Translators: %s Guest label for RSVP attendee registration form title.
+#. Translators: %s Guest label for RSVP attendee registration sidebar.
+#: src/views/v2/rsvp/ari/form/title.php:21
+#: src/views/v2/rsvp/ari/sidebar/guest-list/guest.php:34
+msgid "Main %s"
+msgstr ""
+
+#. Translators: 1 the guest number.
+#: src/views/v2/rsvp/ari/sidebar/guest-list/guest-template.php:36
+msgctxt "RSVP attendee registration sidebar guest button"
+msgid "Guest %1$s"
+msgstr ""
+
+#: src/views/v2/rsvp/ari/sidebar/quantity/minus.php:23
+msgid "Minus"
+msgstr ""
+
+#: src/views/v2/rsvp/ari/sidebar/quantity/plus.php:23
+msgid "Plus"
+msgstr ""
+
+#. Translators: %s Guest label for RSVP attendee registration sidebar title.
+#: src/views/v2/rsvp/ari/sidebar/quantity.php:22
+msgid "Total %s"
+msgstr ""
+
+#: src/views/v2/rsvp/details/attendance.php:29
+msgctxt "Label below the attendance number"
+msgid "Going"
+msgstr ""
+
+#. Translators: 1: opening span. 2: the number of remaining days to RSVP. 3:
+#. Closing span. 4: The RSVP label.
+#: src/views/v2/rsvp/details/availability/days-to-rsvp.php:23
+msgctxt "Days to RSVP"
+msgid "%1$s %2$s %3$s day left to %4$s"
+msgid_plural "%1$s %2$s %3$s days left to %4$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %s: The RSVP label.
+#: src/views/v2/rsvp/details/availability/days-to-rsvp.php:38
+msgctxt "Last day to RSVP"
+msgid "Last day to %s"
+msgstr ""
+
+#: src/views/v2/rsvp/details/availability/full.php:22
+msgid "Currently full"
+msgstr ""
+
+#. Translators: 1: opening span. 2: the number of remaining tickets to RSVP. 3:
+#. Closing span.
+#: src/views/v2/rsvp/details/availability/remaining.php:30
+msgctxt "Remaining RSVP quantity"
+msgid "%1$s %2$s %3$s remaining"
+msgstr ""
+
+#: src/views/v2/rsvp/form/fields/quantity.php:18
+msgid "Number of Guests"
+msgstr ""
+
+#: src/views/v2/rsvp/form/fields/quantity.php:18
+msgid "Number of Guests Not Attending"
+msgstr ""
+
+#: src/views/v2/rsvp/form/going/title.php:20
+msgid ""
+"Please submit your RSVP information, including the total number of guests."
+msgstr ""
+
+#: src/views/v2/rsvp/form/not-going/title.php:20
+msgid "Please submit your information even if you are unable to attend."
+msgstr ""
+
+#. Translators: 1: RSVP label.
+#: src/views/v2/rsvp/messages/must-login.php:36
+msgctxt "rsvp must login"
+msgid "You must be logged in to %1$s."
+msgstr ""
+
+#: src/views/v2/rsvp/messages/must-login.php:46
+msgid "Log in here"
+msgstr ""
+
+#. Translators: %1$s: RSVP label.
+#: src/views/v2/rsvp/messages/success/going.php:32
+msgctxt "blocks rsvp messages success"
+msgid "Your %1$s has been received! "
+msgstr ""
+
+#. Translators: %1$s: RSVP label.
+#: src/views/v2/rsvp/messages/success/going.php:43
+msgctxt "blocks rsvp messages success"
+msgid "Check your email for %1$s confirmation."
+msgstr ""
+
+#: src/views/v2/rsvp/messages/success/not-going.php:28
+msgid "Thank you for confirming!"
+msgstr ""
+
+#. Translators: %1$s: RSVP label.
+#: src/views/v2/rsvp/messages/success/not-going.php:35
+msgctxt "blocks rsvp messages success"
+msgid "Your %1$s response has been received."
+msgstr ""
+
+#. Translators: 1: opening span. 2: the number of remaining tickets to buy. 3:
+#. Closing span.
+#: src/views/v2/tickets/item/extra/available/quantity.php:59
+msgctxt "Tickets available"
+msgid "%1$s %2$s %3$s available"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://evnt.is/1acb"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Event Tickets allows you to sell basic tickets and collect RSVPs from any "
+"post, page, or event."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "The Events Calendar"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://evnt.is/1aor"
+msgstr ""
